@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Translation Portfolio": {
+    "message": "翻译作品集",
+    "description": "The label for category Translation Portfolio in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.CAT Tools": {
+    "message": "CAT 工具",
+    "description": "The label for category CAT Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.OmegaT": {
+    "message": "OmegaT",
+    "description": "The label for category OmegaT in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.About Me": {
+    "message": "关于我",
+    "description": "The label for category About Me in sidebar tutorialSidebar"
+  }
+}

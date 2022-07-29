@@ -1,0 +1,42 @@
+{
+  "link.title.Docs": {
+    "message": "文档",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Contact": {
+    "message": "联系我",
+    "description": "The title of the footer links column with title=Contact in the footer"
+  },
+  "link.title.More": {
+    "message": "更多",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Translation Portfolio": {
+    "message": "翻译作品集",
+    "description": "The label of footer link with label=Translation Portfolio linking to /docs/portfolio/index"
+  },
+  "link.item.label.CAT Tools": {
+    "message": "CAT 工具",
+    "description": "The label of footer link with label=CAT Tools linking to /docs/cat"
+  },
+  "link.item.label.Email Me": {
+    "message": "给我发邮件",
+    "description": "The label of footer link with label=Email Me linking to mailto:vickyhella@hotmail.com"
+  },
+  "link.item.label.LinkedIn": {
+    "message": "领英主页",
+    "description": "The label of footer link with label=LinkedIn linking to https://www.linkedin.cn/incareer/in/vicky-wong-95a511aa"
+  },
+  "link.item.label.Blog": {
+    "message": "博客",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/vickyhella"
+  },
+  "copyright": {
+    "message": "Copyright © 2022 Vickyhella, Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

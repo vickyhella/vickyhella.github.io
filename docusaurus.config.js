@@ -17,6 +17,11 @@ const config = {
   projectName: 'vickyhella.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh'],
+  },
+
   presets: [
     [
       'classic',
@@ -52,10 +57,14 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'index',
             position: 'left',
             label: 'Docs',
           },
+		  {
+			type: 'localeDropdown',
+			position: 'right',
+		  },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/vickyhella/',
@@ -72,7 +81,7 @@ const config = {
             items: [
               {
                 label: 'Translation Portfolio',
-                to: '/docs/portfolio/overview',
+                to: '/docs/portfolio/index',
               },
 			  {
                 label: 'CAT Tools',
