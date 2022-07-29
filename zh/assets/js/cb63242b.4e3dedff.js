@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvickyhella_github_io=self.webpackChunkvickyhella_github_io||[]).push([[8557],{6690:function(a){a.exports=JSON.parse('{"allTagsPath":"/zh/blog/tags","slug":"/zh/blog/tags/grammarly","name":"grammarly","count":1,"permalink":"/zh/blog/tags/grammarly"}')}}]);

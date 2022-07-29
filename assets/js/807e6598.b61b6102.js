@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvickyhella_github_io=self.webpackChunkvickyhella_github_io||[]).push([[9347],{311:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/omegat","name":"omegat","count":1,"permalink":"/blog/tags/omegat"}')}}]);

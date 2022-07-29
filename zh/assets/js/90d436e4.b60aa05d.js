@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvickyhella_github_io=self.webpackChunkvickyhella_github_io||[]).push([[5358],{39:function(a){a.exports=JSON.parse('{"allTagsPath":"/zh/blog/tags","slug":"/zh/blog/tags/languagetool","name":"languagetool","count":1,"permalink":"/zh/blog/tags/languagetool"}')}}]);

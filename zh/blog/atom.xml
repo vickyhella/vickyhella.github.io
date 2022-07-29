@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://vickyhella.github.io/zh/blog</id>
+    <title>Vickyhella Blog</title>
+    <updated>2021-11-17T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://vickyhella.github.io/zh/blog"/>
+    <subtitle>Vickyhella Blog</subtitle>
+    <icon>https://vickyhella.github.io/zh/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[CAT - OmegaT]]></title>
+        <id>/2021/11/17/omegat</id>
+        <link href="https://vickyhella.github.io/zh/blog/2021/11/17/omegat"/>
+        <updated>2021-11-17T00:00:00.000Z</updated>
+        <category label="omegat" term="omegat"/>
+        <category label="cat" term="cat"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web-Based Translation Tools]]></title>
+        <id>/2021/09/28/tools</id>
+        <link href="https://vickyhella.github.io/zh/blog/2021/09/28/tools"/>
+        <updated>2021-09-28T00:00:00.000Z</updated>
+        <category label="grammarly" term="grammarly"/>
+        <category label="languagetool" term="languagetool"/>
+        <category label="highlight this" term="highlight this"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction]]></title>
+        <id>/2021/08/26/welcome</id>
+        <link href="https://vickyhella.github.io/zh/blog/2021/08/26/welcome"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This section is to record my learning progress. I will post things that I have been learning or found here. It could be about translation, English learning, product management, some new tools or apps Ive learned, or just anything.]]></summary>
+        <content type="html"><![CDATA[<p>This section is to record my learning progress. I will post things that I have been learning or found here. It could be about translation, English learning, product management, some new tools or apps Ive learned, or just anything.</p><p>Im always open to learning new things, so everything is possible to show up here. Please dont be surprised if some things totally irrelevant are posted here.</p>]]></content>
+        <category label="intro" term="intro"/>
+        <category label="hello" term="hello"/>
+    </entry>
+</feed>
