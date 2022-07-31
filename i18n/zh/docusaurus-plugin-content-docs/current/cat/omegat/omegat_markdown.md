@@ -34,4 +34,4 @@ However, I tried to preview the target markdown files using several markdown pre
 
 I have never used OmegaT before, so I still need to get used to the editor page and find out its other features.
 
-Though it does not work perfectly, yet, Im glad that I found and tried OmegaT and Im loving it.
+Though it does not work perfectly, yet, I'm glad that I found and tried OmegaT and I'm loving it.

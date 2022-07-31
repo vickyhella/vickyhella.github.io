@@ -15,11 +15,11 @@ Sometimes translators need to translate on web-based translation platforms (such
 
 2. LanguageTool (free of charge)
 - Client: Chrome
-- Feature: checks grammar and spelling in real time when youre typing in a text box.
+- Feature: checks grammar and spelling in real time when you're typing in a text box.
 
 ## Custom Tools
 
-Soon I realized these two tools are not enough, as they cannot detect the forbidden words (terms in the blocklist) in my translation. To tackle this problem, I found another tool and customize it. It works, though its not very convenient.
+Soon I realized these two tools are not enough, as they cannot detect the forbidden words (terms in the blocklist) in my translation. To tackle this problem, I found another tool and customize it. It works, though it's not very convenient.
 
 3. Highlight This (free of charge)
 - Client: Chrome

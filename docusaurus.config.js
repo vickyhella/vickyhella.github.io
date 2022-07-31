@@ -81,7 +81,7 @@ const config = {
             items: [
               {
                 label: 'Translation Portfolio',
-                to: '/docs/portfolio/index',
+                to: '/docs/portfolio',
               },
 			  {
                 label: 'CAT Tools',
