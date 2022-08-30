@@ -9,10 +9,10 @@ The following are games that I've played recently. I think it's interesting to p
 
 I will try to comment on all the games listed here (ToDo). I believe this might be a good and fun way to practice English writing.
 
-- Stardew Valley (星露谷)
-- Kingdom Two Crows (王国：两位君主)
-- Don't Starve Together (饥荒)
+- Stardew Valley
+- Kingdom Two Crows
+- Don't Starve Together
 - Timberborn
-- MineCraft (我的世界)
-- Oxygen Not Included (缺氧)
-- Horizon 4 (地平线)
+- MineCraft
+- Oxygen Not Included
+- Horizon 4

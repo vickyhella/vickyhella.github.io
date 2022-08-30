@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Vickyhella',
-  tagline: 'A technical translator\'s personal website',
+  title: 'A Technical Translator\'s Website',
+  tagline: 'Be a Translator Who Knows Tech the Most',
   url: 'https://vickyhella.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -68,7 +68,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/vickyhella/',
-            label: 'My GitHub Homepage',
+            label: 'GitHub',
             position: 'right',
           },
         ],

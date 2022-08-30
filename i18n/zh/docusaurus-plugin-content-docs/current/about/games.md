@@ -1,11 +1,11 @@
 ---
-title: 最近玩过的游戏
+title: 最近玩的游戏
 sidebar_position: 2
 ---
 
-The following are games that I've played recently. I think it's interesting to put them here to remind me all the fun they've given to me.
+这里记录了我最近玩的游戏。记录的原因是我希望以后还能记得这些游戏给我带来过的快乐~
 
-I will try to comment on all the games listed here (ToDo). I believe this might be a good and fun way to practice English writing.
+如果有时间的话，我会把我对这些游戏的评价也写出来，以此练习英语写作的能力。
 
 - 星露谷
 - 王国：两位君主
