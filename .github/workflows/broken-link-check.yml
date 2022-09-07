@@ -1,10 +1,11 @@
 on:
-  schedule:
-    - cron: 30 2 * * * # run daily
+  # schedule:
+    # - cron: 30 2 * * * # run daily
   repository_dispatch: # run manually
     types: [check-link]
-  # push:
-  # ...
+  push:
+    branches:
+      - main
 
 name: Broken Link Check
 jobs:
