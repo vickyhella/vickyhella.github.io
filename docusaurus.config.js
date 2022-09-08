@@ -30,7 +30,9 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/vickyhella/vickyhella.github.io/',
+          editUrl: 'https://github.com/vickyhella/vickyhella.github.io/edit/main',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
@@ -80,12 +82,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Translation Portfolio',
-                to: '/docs/portfolio',
+                label: 'Translation',
+                to: '/docs/translation',
               },
 			  {
-                label: 'CAT Tools',
-                to: '/docs/cat',
+                label: 'Tech',
+                to: '/docs/tech/git',
+              },
+              {
+                label: 'Website Building',
+                to: '/docs/website-building/docusaurus',
               },
             ],
           },
@@ -98,7 +104,7 @@ const config = {
               },
               {
                 label: 'LinkedIn',
-                href: 'https://www.linkedin.cn/incareer/in/vicky-wong-95a511aa',
+                href: 'https://www.linkedin.cn/incareer/in/vickyhella',
               },
             ],
           },

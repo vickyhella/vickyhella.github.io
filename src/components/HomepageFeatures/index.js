@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Translation Portforlio',
+    title: 'Translation',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Includes my genre-specific translation portfolio.
+        Includes my genre-specific translation portfolio, CAT tool techniques and findings, and more.
       </>
     ),
   },
   {
-    title: 'CAT Tools',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        My Computer-Assisted Translation (CAT) techniques and findings.
-      </>
-    ),
-  },
-  {
-    title: 'Blog',
+    title: 'Tech',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        What I've learned recently. It can be anything though.
+        Technical stuff that I've learned, such as Git, regular expression, and more.
+      </>
+    ),
+  },
+  {
+    title: 'Website Building',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Introduces the Docusaurus framework and tools used to build a static website.
       </>
     ),
   },
