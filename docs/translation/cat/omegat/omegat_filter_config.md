@@ -12,14 +12,14 @@ To do so, we need to configure a filter plugin so that OmegaT can parse markdown
 
 ## Instructions
 
-1. Download [Okapi’s OmegaT filter]([https://okapiframework.org/wiki/index.php/Okapi_Filters_Plugin_for_OmegaT](https://okapiframework.org/wiki/index.php/Okapi_Filters_Plugin_for_OmegaT)), which is available [here]([https://okapiframework.org/binaries/omegat-plugin/](https://okapiframework.org/binaries/omegat-plugin/)).
+1. Download [Okapi’s OmegaT filter](https://okapiframework.org/wiki/index.php/Okapi_Filters_Plugin_for_OmegaT), which is available [here](https://okapiframework.org/binaries/omegat-plugin/).
 2. Open OmegaT, click **Options** > **Access configuration files.** In the folder that is opened, create a folder called `plugins`, and copy the filter downloaded in Step 1 to this folder.
     
 :::note
 At this stage, OmegaT can already parse markdown files. If you don’t need to translate links or YAML headers, you can skip the steps below.
 :::
     
-3. Download okapi’ Rainbow app (supports macOS and Windows). You can download it [here]([https://okapiframework.org/binaries/main/](https://okapiframework.org/binaries/main/)).
+3. Download okapi’ Rainbow app (supports macOS and Windows). You can download it [here](https://okapiframework.org/binaries/main/).
 4. Create a custom filter config file.
     1. Open Rainbow.
     2. Click **Tools** > **Filter Configurations**.
