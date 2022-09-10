@@ -8,29 +8,20 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[CAT - OmegaT]]></title>
-            <link>https://vickyhella.github.io/blog/2021/11/17/omegat</link>
-            <guid>/2021/11/17/omegat</guid>
+            <title><![CDATA[Placeholder]]></title>
+            <link>https://vickyhella.github.io/blog/2021/11/17/placeholder</link>
+            <guid>/2021/11/17/placeholder</guid>
             <pubDate>Wed, 17 Nov 2021 00:00:00 GMT</pubDate>
             <category>omegat</category>
             <category>cat</category>
-        </item>
-        <item>
-            <title><![CDATA[Web-Based Translation Tools]]></title>
-            <link>https://vickyhella.github.io/blog/2021/09/28/tools</link>
-            <guid>/2021/09/28/tools</guid>
-            <pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
-            <category>grammarly</category>
-            <category>languagetool</category>
-            <category>highlight this</category>
         </item>
         <item>
             <title><![CDATA[Introduction]]></title>
             <link>https://vickyhella.github.io/blog/2021/08/26/welcome</link>
             <guid>/2021/08/26/welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[This section is to record my learning progress. I will post things that I have been learning or found here. It could be about translation, English learning, product management, some new tools or apps Ive learned, or just anything.]]></description>
-            <content:encoded><![CDATA[<p>This section is to record my learning progress. I will post things that I have been learning or found here. It could be about translation, English learning, product management, some new tools or apps Ive learned, or just anything.</p><p>Im always open to learning new things, so everything is possible to show up here. Please dont be surprised if some things totally irrelevant are posted here.</p>]]></content:encoded>
+            <description><![CDATA[I will use this section to post my thoughts.]]></description>
+            <content:encoded><![CDATA[<p>I will use this section to post my thoughts.</p>]]></content:encoded>
             <category>intro</category>
             <category>hello</category>
         </item>

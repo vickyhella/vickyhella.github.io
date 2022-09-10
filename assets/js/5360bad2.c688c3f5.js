@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvickyhella_github_io=self.webpackChunkvickyhella_github_io||[]).push([[2439],{7408:function(s){s.exports=JSON.parse('{"name":"tools","permalink":"/docs/tags/tools","docs":[{"id":"translation/cat/web-tools","title":"Web Tools","description":"Overview","permalink":"/docs/translation/cat/web-tools"}],"allTagsPath":"/docs/tags"}')}}]);
