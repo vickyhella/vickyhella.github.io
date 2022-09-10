@@ -3,9 +3,13 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Translation Portfolio": {
-    "message": "翻译作品集",
-    "description": "The label for category Translation Portfolio in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Translation": {
+    "message": "翻译",
+    "description": "The label for category Translation in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Portfolio": {
+    "message": "作品集",
+    "description": "The label for category Portfolio in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.CAT Tools": {
     "message": "CAT 工具",
@@ -15,8 +19,16 @@
     "message": "OmegaT",
     "description": "The label for category OmegaT in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.About Me": {
-    "message": "关于我",
-    "description": "The label for category About Me in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Tech": {
+    "message": "技术",
+    "description": "The label for category Tech in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Website Building": {
+    "message": "网站搭建",
+    "description": "The label for category Website Building in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tools": {
+    "message": "工具",
+    "description": "The label for category Tools in sidebar tutorialSidebar"
   }
 }
