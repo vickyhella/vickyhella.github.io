@@ -38,7 +38,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/vickyhella/vickyhella.github.io/',
+            'https://github.com/vickyhella/vickyhella.github.io/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
