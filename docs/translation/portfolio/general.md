@@ -1,8 +1,7 @@
 ---
 sidebar_position: 2
+title: General
 ---
-
-# General
 
 ## 1. Government Work Report
 

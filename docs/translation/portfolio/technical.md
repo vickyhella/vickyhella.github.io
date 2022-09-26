@@ -1,8 +1,7 @@
 ---
 sidebar_position: 4
+title: Technical
 ---
-
-# Technical
 
 ## 1. CDN
 

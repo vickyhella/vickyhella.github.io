@@ -50,7 +50,27 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      navbar: {
+        algolia: {
+            // The application ID provided by Algolia
+            appId: '4QH5ES95SJ',
+      
+            // Public API key: it is safe to commit it
+            apiKey: 'a0381a2fb9debec2ac54d7c87a1471a6',
+      
+            indexName: 'vickyhella',
+      
+            // Optional: see doc section below
+            contextualSearch: true,
+      
+            // Optional: Algolia search parameters
+            searchParameters: {},
+      
+            // Optional: path for search page that enabled by default (`false` to disable it)
+            searchPagePath: 'search',
+      
+            //... other Algolia params
+          },
+        navbar: {
         title: 'Vickyhella',
         logo: {
           alt: 'My Site Logo',

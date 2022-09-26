@@ -1,8 +1,7 @@
 ---
 sidebar_position: 3
+title: Gaming
 ---
-
-# Gaming
 
 The translation is categorized into two sections, Chinese to English and English to Chinese. Each of them includes several demos. You can find one as needed.
 
