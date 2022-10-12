@@ -50,6 +50,8 @@ gh pr checkout {<number> | <url> | <branch>} [flags]
 With this command, we don't need to set a remote repo and create a corresponding branch anymore.
 You can simply check out any PR by specifying the PR's URL.
 
+You can also use this command to make commit to someone's PR.
+
 For more information, see [gh pr checkout](https://cli.github.com/manual/gh_pr_checkout).
 
 ## Working with `git switch`
