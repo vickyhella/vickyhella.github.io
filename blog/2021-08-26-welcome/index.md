@@ -1,6 +1,6 @@
 ---
 title: Introduction
-tags: [intro, hello]
+tags: [introduction]
 ---
 
-I will use this section to post my thoughts.
+I will use the "Blog" section to post my thoughts on possibly everything, and also some docs that are not categorized yet.
