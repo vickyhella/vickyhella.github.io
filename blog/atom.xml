@@ -2,27 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vickyhella.github.io/blog</id>
     <title>A Technical Translator's Website Blog</title>
-    <updated>2021-11-17T00:00:00.000Z</updated>
+    <updated>2022-10-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vickyhella.github.io/blog"/>
     <subtitle>A Technical Translator's Website Blog</subtitle>
     <icon>https://vickyhella.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Placeholder]]></title>
-        <id>/2021/11/17/placeholder</id>
-        <link href="https://vickyhella.github.io/blog/2021/11/17/placeholder"/>
-        <updated>2021-11-17T00:00:00.000Z</updated>
-        <category label="omegat" term="omegat"/>
-        <category label="cat" term="cat"/>
+        <title type="html"><![CDATA[Useful GitHub Phrases]]></title>
+        <id>/2022/10/17/useful-github-phrases</id>
+        <link href="https://vickyhella.github.io/blog/2022/10/17/useful-github-phrases"/>
+        <updated>2022-10-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Overview]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="overview">Overview<a class="hash-link" href="#overview" title="Direct link to heading">​</a></h2><p>This post records some useful words/phrases that we can use when collaborating on GitHub.</p><h3 class="anchor anchorWithStickyNavbar_mojV" id="nit">Nit<a class="hash-link" href="#nit" title="Direct link to heading">​</a></h3><p><strong>Meaning</strong>:</p><p>Nit in a code review stands for nitpicking: a finding that is not very important or meaningful for the functionality of the code, but still wrong.</p><p>Sometimes the reviewer will prefix his comments with "Nit:". This means that he's just "nitpicking"--you don't have to fix these points, but we'd like you to.</p><p><strong>Usage</strong>:</p><ul><li>Nit: Trailing whitespace</li><li>Issue 9662: fix minor style nit (Closed)</li><li>One nit, but the rest LGTM</li></ul><h3 class="anchor anchorWithStickyNavbar_mojV" id="ditto">ditto<a class="hash-link" href="#ditto" title="Direct link to heading">​</a></h3><p><strong>Meaning</strong>:</p><p>As before or aforesaid: in the same manner —used to indicate that a previous statement also applies to something or someone else.</p><p><strong>Usage</strong>:</p><p>If you found a mistake in a PR and already gave your comment on it, you can say "ditto" when you see it for the second and later occurrences.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="references">References<a class="hash-link" href="#references" title="Direct link to heading">​</a></h2><ul><li><a href="https://google.github.io/eng-practices/review/reviewer/standard.html" target="_blank" rel="noopener noreferrer">The Standard of Code Review</a></li><li><a href="https://chromium.googlesource.com/chromiumos/docs/+/HEAD/glossary.md" target="_blank" rel="noopener noreferrer">ChromeOS Glossary</a></li></ul>]]></content>
+        <category label="github" term="github"/>
+        <category label="git" term="git"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Introduction]]></title>
         <id>/2021/08/26/welcome</id>
         <link href="https://vickyhella.github.io/blog/2021/08/26/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I will use this section to post my thoughts.]]></summary>
-        <content type="html"><![CDATA[<p>I will use this section to post my thoughts.</p>]]></content>
-        <category label="intro" term="intro"/>
-        <category label="hello" term="hello"/>
+        <summary type="html"><![CDATA[I will use the "Blog" section to post my thoughts on possibly everything, and also some docs that are not categorized yet.]]></summary>
+        <content type="html"><![CDATA[<p>I will use the "Blog" section to post my thoughts on possibly everything, and also some docs that are not categorized yet.</p>]]></content>
+        <category label="introduction" term="introduction"/>
     </entry>
 </feed>

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvickyhella_github_io=self.webpackChunkvickyhella_github_io||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Placeholder","permalink":"/blog/2021/11/17/placeholder"},{"title":"Introduction","permalink":"/blog/2021/08/26/welcome"}]}')}}]);
