@@ -70,6 +70,16 @@ I used it mostly to create a branch based on another branch. To do so:
 
 For more information, see [git switch](https://git-scm.com/docs/git-switch).
 
+## Working with `git add remote -t <branch>`
+
+By default, the `git add remote` command tracks all branches in a repo. However, there are times when we only want to track a specific branch. In this case, we can use the `-t <branch>` option to specify a branch to track:
+
+```
+git remote add <name> <url> -t <the branch to track>
+```
+
+For more information, see [git-remote](https://git-scm.com/docs/git-remote).
+
 <!-- 
 ## Contributing with a Fork  
 
