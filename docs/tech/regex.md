@@ -23,4 +23,4 @@ This document collects regular expressions that can be helpful for technical tra
 
 ## References
 
-[Regular Expression for Markdown Syntax](http://blog.huanghanlian.com/article/5c80b4176f8b011040530140)
+- [Regular Expression for Markdown Syntax](http://blog.huanghanlian.com/article/5c80b4176f8b011040530140)
