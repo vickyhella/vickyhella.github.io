@@ -1,6 +1,6 @@
 ---
 title: Improving Efficiency
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 ## Introduction
@@ -48,11 +48,11 @@ After this, the default directory of the terminal will become `<target-directory
     vi ~/.zshrc
     ```
 
-    In the editor, add your alias in the format of `alias="actual command"`. You can add multiple aliases (one alias per line).
+    In the editor, add your alias in the format of `alias shortname="actual command"` (e.g., `alias m="multipass"`). You can add multiple aliases (one alias per line).
 2. At the end of the file, add the following line:
 
     ```
-    source ～/.bash_profile
+    source ~/.zshrc
     ```
 
     In this way, your aliases will be permanent, meaning they will take effect even if you exit the terminal and reopen it.

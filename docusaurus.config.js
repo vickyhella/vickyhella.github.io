@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'A Technical Translator\'s Website',
-  tagline: 'Be a Translator Who Knows Tech the Most',
+  title: 'Vickyhella',
+  tagline: 'Be a Translator Who Knows Something About Tech',
   url: 'https://vickyhella.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',

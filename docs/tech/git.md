@@ -1,6 +1,6 @@
 ---
 title: Git
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 ## Introduction
@@ -20,7 +20,7 @@ In this way, your local branch will be synced with the origin/master branch.
 
 ## Reviewing using GH Suggestions
 
-### Rewiewers
+### Reviewers
 
 When giving comments on GitHub, rather than commenting directly, reviewers can use the **Add Suggestion** option to improve the effeciency. To do so:
 1. Find the line(s) you want to comment on and click the **+** button.

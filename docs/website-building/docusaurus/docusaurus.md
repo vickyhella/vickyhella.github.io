@@ -1,6 +1,5 @@
 ---
 title: Docusaurus
-sidebar_position: 1
 ---
 
 ## Introduction
@@ -14,17 +13,3 @@ When I first started building my own blog, I wrote it in HTML and CSS (yes, writ
 - Look more like a pro (indeed)
 
 So I decided to migrate my blog to Docusaurus and I think it was a wise choice.
-
-## Features to Implement
-In order to allow myself to add content incrementaly, I will break down this document by feature and explain how each of them was implmented.
-
-### 1. Versioning
-
-
-### 2. Bilingual
-
-### 3. Generate PDF
-
-```
-npx docusaurus-pdf <HTTPS address of the index page> <filename.pdf> &
-```
