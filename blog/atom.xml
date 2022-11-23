@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://vickyhella.github.io/blog</id>
-    <title>A Technical Translator's Website Blog</title>
+    <title>Vickyhella Blog</title>
     <updated>2022-10-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://vickyhella.github.io/blog"/>
-    <subtitle>A Technical Translator's Website Blog</subtitle>
+    <subtitle>Vickyhella Blog</subtitle>
     <icon>https://vickyhella.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Useful GitHub Phrases]]></title>
