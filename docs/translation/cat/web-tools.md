@@ -37,4 +37,5 @@ You can use this method if you need to ensure that no forbidden words show up in
 
 ## To Be Continued
 
-I havent found a way to ensure the consistency of my translation when translating on a web-based platform. If I managed to figure out how to do that, I will add the method here later.
+I haven't found a way to ensure the consistency of my translation when translating on a web-based platform. Once I manage to figure out how to do that, I will add the description here.
+

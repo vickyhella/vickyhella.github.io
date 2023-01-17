@@ -18,9 +18,9 @@ git pull
 
 In this way, your local branch will be synced with the origin/master branch.
 
-## Reviewing using GH Suggestions
+## Reviewing with GH Suggestions
 
-### Reviewers
+**Reviewers**
 
 When giving comments on GitHub, rather than commenting directly, reviewers can use the **Add Suggestion** option to improve the effeciency. To do so:
 1. Find the line(s) you want to comment on and click the **+** button.
@@ -30,7 +30,7 @@ When giving comments on GitHub, rather than commenting directly, reviewers can u
 5. When you finish the review, click **Finish your review** in the upper right corner.
 6. (Optional) Write a comment to summarize your suggestions, and then click **Comment**.
 
-### PR owners
+**PR owners**
 
 To accept one single suggestion:
 - Click **Commit suggestion** below that suggestion. You can also add some description about the changes as needed. In this way, the suggestion will be applied and a new commit will be generated.

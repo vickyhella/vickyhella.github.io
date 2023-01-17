@@ -1,5 +1,5 @@
 ---
-title: Bash Syntax
+title: Bash
 sidebar_position: 1
 ---
 
