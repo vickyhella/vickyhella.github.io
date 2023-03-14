@@ -56,8 +56,7 @@ find [path] [expression]
   - `-exec command {} \;`: performs a command on the matched files. The `{}` placeholder is replaced by the name of the matched file or directory, and `\;` marks the end of the command.
   
     ```bash
-    # prints the size of each file with the extension .txt 
-    # in the current directory and its subdirectories:
+    # print the size of each file with the extension .txt
     find . -name "*.txt" -exec du -sh {} \;
     ```
 
@@ -102,11 +101,9 @@ For example, you can use `--include="*.txt"` to only search through those files 
   grep [OPTIONS] PATTERN --include=GLOB_PATTERN FILE_PATTERN
 
   # search for the word "example" in all .txt files
-  # in the current directory and its subdirectories
   grep --include='*.txt' -r 'example' .
 
-  # search for the word "example" in all .txt and .md files 
-  # in the current directory and its subdirectories
+  # search for the word "example" in all .txt and .md files
   grep --include='*.txt' --include='*.md' -r 'example' .
   ```
 
@@ -114,20 +111,59 @@ For example, you can use `--include="*.txt"` to only search through those files 
   If `--include` is not used, all files in the specified directories and subdirectories will be searched through. `--include` helps narrow down the search.
   :::
 
-- `-i`: ignores case distinctions during the search.
-- `-v`: inverts the match, i.e., select non-matching lines.
-- `-w`: selects only those lines containing matches that form whole words.
+- `-i`: ignores case.
+- `-v`: inverts the match, i.e., selects non-matching lines.
+- `-n` : displays the matched lines and their line numbers.
+  - `-A n`: prints searched line and n lines after the result.
+  - `-B n`: prints searched line and n line before the result.
+  - `-C n`: prints searched line and n lines after before the result.
+- `-w`: matches the whole word.
 - `-r`: searches recursively through directories and their subdirectories.
-- `-e`: specifies the pattern to search for. This option can be used multiple times to search for multiple patterns.
+
+  ```bash
+  # include all subdirectories in a search
+  grep -r pattern *
+  ```
+
+- `-e expression`: specifies the pattern to search for. Can be used multiple times.
+
   ```bash
   # lines that contain either pattern1 or pattern2 in file.txt
   grep -e pattern1 -e pattern2 file.txt
   ```
 
-**More options**:
-
 - `-c`: prints only a count of matching lines.
-- `-n`: prints the line numbers of each matching line.
-- `-l`: prints only the names of files that contain at least one matching line.
-- `-f`: reads the patterns to search for from a file instead of specifying them on the command line.
-- `-s`: suppresses error messages about nonexistent or unreadable files.
+- `-l`: prints only the list of filenames only.
+- `-f file`: takes patterns from a file, one pattern per line.
+
+
+## Using `find` and `grep` in conjunction
+
+To search for specific content in specific files, you can use `find` and `grep` in conjuction as follows:
+
+```bash
+find /path/to/search -name "*.txt" -exec grep "search_pattern" {} \;
+```
+
+This command:
+1. searches for all `.txt` files in `/path/to/search`.
+2. searches for the text string `search_pattern` within each of those files.
+
+## Performing Operations on the Searched Files/Content
+
+You can use `find` and `grep` to search for what you want, but eventually you might want to perform operations on what is searched.
+
+To pass the searched results to the operation command, use `|` to pipe the output of `grep` to the operation command.
+
+### `sed`
+
+Replaces all `old_string` with `new_string` in the searched content.
+
+```bash
+find /path/to/search -name "*.txt" -exec grep "search_pattern" {} \; | sed 's/old_string/new_string/g'
+```
+
+<!--
+### `awk`
+### `xargs`
+-->
