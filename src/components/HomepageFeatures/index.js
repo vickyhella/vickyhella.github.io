@@ -8,25 +8,25 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Includes my genre-specific translation portfolio, CAT tool techniques and findings, and more.
+        Genre-specific translation portfolio and CAT tool techniques.
       </>
     ),
   },
   {
-    title: 'Tech',
+    title: 'Development',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Technical stuff that I've learned, such as Git, regular expression, and more.
+        Development basics that I've learned, such as Linux commands, Git, and scripts.
       </>
     ),
   },
   {
-    title: 'Website Building',
+    title: 'Docusaurus and Website Building',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Introduces the Docusaurus framework and tools used to build a static website.
+        Docusaurus framework and tools used to build a static website.
       </>
     ),
   },

@@ -12,7 +12,7 @@ This document shows some of the skills I learned (from the Internet or my co-wor
 
 1. Press **Cmd + Shift + P** and then search for **Open Workspace Settings**:
 
-  ![settings-editor-workspace-tab](/img/tech/settings-editor-workspace-tab.png)
+  ![settings-editor-workspace-tab](/img/development/settings-editor-workspace-tab.png)
 
 2. Modify the settings that you want to apply specifically to your current project.
 

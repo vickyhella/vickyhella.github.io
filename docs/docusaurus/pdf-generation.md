@@ -1,6 +1,6 @@
 ---
 title: Generating a PDF File
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 To generate a PDF file of the documentation site:

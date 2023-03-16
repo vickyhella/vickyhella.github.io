@@ -12,42 +12,42 @@ This document describes how to generate and upload your search records to Algoli
 You need to install:
 - Docker
 - [jq](https://github.com/stedolan/jq/wiki/Installation): a lightweight command-line JSON processer. To quickly install it on Mac, run the command below:
-    ```
-    brew install jq
-    ```
+  ```bash
+  brew install jq
+  ```
 
 ### Preparing the Files Needed
 
 You need to create a directory that contains the following two files:
 - `.env`: Replace `YOUR_APP_ID` and `YOUR_API_KEY` with the actual ones:
-    ```
-    APPLICATION_ID=YOUR_APP_ID
-    API_KEY=YOUR_API_KEY
-    ```
+  ```
+  APPLICATION_ID=YOUR_APP_ID
+  API_KEY=YOUR_API_KEY
+  ```
 - `config.json`: Replace `<index-name>` and `<example-url>` with the actual ones:
-    ```
-    {
-    "index_name": "<index-name>",
-    "sitemap_urls": ["http://<example-url>/sitemap.xml"],
-    "start_urls": ["http://<example-url>/"],
-    "selectors": {
-        "lvl0": "",
-        "lvl1": "article h1",
-        "lvl2": "article h2",
-        "lvl3": "article h3",
-        "lvl4": "article h4",
-        "lvl5": "article h5"
-    },
-    "custom_settings": {
-        "attributesForFaceting": [
-        "language",
-        "version",
-        "type",
-        "docusaurus_tag"
-        ]
-    }
-    }
-    ```
+  ```
+  {
+  "index_name": "<index-name>",
+  "sitemap_urls": ["http://<example-url>/sitemap.xml"],
+  "start_urls": ["http://<example-url>/"],
+  "selectors": {
+      "lvl0": "",
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
+      "lvl4": "article h4",
+      "lvl5": "article h5"
+  },
+  "custom_settings": {
+      "attributesForFaceting": [
+      "language",
+      "version",
+      "type",
+      "docusaurus_tag"
+      ]
+  }
+  }
+  ```
 
 ### Generating/Updating Records
 

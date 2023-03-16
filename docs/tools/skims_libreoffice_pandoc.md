@@ -9,7 +9,7 @@ sidebar_position: 1
 
 To install pandoc, run:
 
-```
+```bash
 brew install pandoc
 ```
 

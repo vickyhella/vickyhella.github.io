@@ -19,7 +19,7 @@ On the file (e.g., md or js files) that needs to be redirected, add the code bel
 
 ### Redirection in Multi-Language Use Cases
 
-If your Docusaurus site provides more than one language, the code above will not work for the non-language.
+If your Docusaurus site provides more than one language, the code above will not work for non-default languages.
 
 In this way, you can add the code below instead:
   
@@ -28,11 +28,13 @@ import React from 'react';
 import {Redirect} from '@docusaurus/router';
 
 export default function Home(context) {
-  return <Redirect to={`${context.config.baseUrl}target`} />;
+  return <Redirect to={`${context.config.baseUrl}<target>`} />;
 }
 ```
 
-After this, when users access this page from the default locale, they will be redirected to the `homepage/target` page. If they are from another locale such as `zh`, they will be directed to the `homepage/zh/target` page.
+`<target>` should be replaced with the actual target location that the user should be redirected to.
+
+After this, when users access this page from the default locale, they will be redirected to `homepage/target`. If they are from another locale such as `zh`, they will be directed to `homepage/zh/target`.
 
 <!--
 ## Redirection Using a Plugin

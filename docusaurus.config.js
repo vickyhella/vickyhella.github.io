@@ -106,12 +106,12 @@ const config = {
                 to: '/docs/translation',
               },
 			  {
-                label: 'Tech',
-                to: '/docs/tech/git',
+                label: 'Development',
+                to: '/docs/development/git',
               },
               {
-                label: 'Website Building',
-                to: '/docs/website-building/docusaurus',
+                label: 'Docusaurus',
+                to: '/docs/docusaurus',
               },
             ],
           },
