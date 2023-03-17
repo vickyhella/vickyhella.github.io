@@ -15,14 +15,6 @@
     "message": "翻译",
     "description": "The label of footer link with label=Translation linking to /docs/translation"
   },
-  "link.item.label.Tech": {
-    "message": "技术",
-    "description": "The label of footer link with label=Tech linking to /docs/tech/git"
-  },
-  "link.item.label.Website Building": {
-    "message": "网站搭建",
-    "description": "The label of footer link with label=Website Building linking to /docs/website-building/docusaurus"
-  },
   "link.item.label.Email Me": {
     "message": "邮件",
     "description": "The label of footer link with label=Email Me linking to mailto:vickyhella@hotmail.com"
@@ -42,5 +34,13 @@
   "copyright": {
     "message": "Copyright © 2022 Vickyhella, Built with Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.item.label.Development": {
+    "message": "开发",
+    "description": "The label of footer link with label=Development linking to /docs/development/git"
+  },
+  "link.item.label.Docusaurus": {
+    "message": "Docusaurus",
+    "description": "The label of footer link with label=Docusaurus linking to /docs/docusaurus"
   }
 }

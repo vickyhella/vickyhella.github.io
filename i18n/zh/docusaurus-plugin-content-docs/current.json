@@ -19,13 +19,25 @@
     "message": "OmegaT",
     "description": "The label for category OmegaT in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Tech": {
-    "message": "技术",
-    "description": "The label for category Tech in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Development": {
+    "message": "开发",
+    "description": "The label for category Development in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Website Building": {
-    "message": "网站搭建",
-    "description": "The label for category Website Building in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Linux Commands": {
+    "message": "Linux 命令",
+    "description": "The label for category Linux Commands in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Docusaurus": {
+    "message": "Docusaurus",
+    "description": "The label for category Docusaurus in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Custom Components": {
+    "message": "自定义组件",
+    "description": "The label for category Custom Components in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Website Management": {
+    "message": "网站管理",
+    "description": "The label for category Website Management in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Tools": {
     "message": "工具",
