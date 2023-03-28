@@ -106,8 +106,8 @@ const config = {
                 to: '/docs/translation',
               },
 			  {
-                label: 'Development',
-                to: '/docs/development/git',
+                label: 'Development Basics',
+                to: '/docs/development-basics/linux_commands',
               },
               {
                 label: 'Docusaurus',

@@ -19,10 +19,6 @@
     "message": "OmegaT",
     "description": "The label for category OmegaT in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Development": {
-    "message": "开发",
-    "description": "The label for category Development in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.Linux Commands": {
     "message": "Linux 命令",
     "description": "The label for category Linux Commands in sidebar tutorialSidebar"
@@ -42,5 +38,17 @@
   "sidebar.tutorialSidebar.category.Tools": {
     "message": "工具",
     "description": "The label for category Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Development Basics": {
+    "message": "开发基础",
+    "description": "The label for category Development Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Docker": {
+    "message": "Docker",
+    "description": "The label for category Docker in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Programming Languages": {
+    "message": "编程语言",
+    "description": "The label for category Programming Languages in sidebar tutorialSidebar"
   }
 }

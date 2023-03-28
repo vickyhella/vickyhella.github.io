@@ -13,7 +13,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Development',
+    title: 'Development Basics',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>

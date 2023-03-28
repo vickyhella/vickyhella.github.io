@@ -35,9 +35,9 @@
     "message": "Copyright © 2022 Vickyhella, Built with Docusaurus.",
     "description": "The footer copyright"
   },
-  "link.item.label.Development": {
-    "message": "开发",
-    "description": "The label of footer link with label=Development linking to /docs/development/git"
+  "link.item.label.Development Basics": {
+    "message": "开发基础",
+    "description": "The label of footer link with label=Development Basics linking to /docs/development-basics/linux_commands"
   },
   "link.item.label.Docusaurus": {
     "message": "Docusaurus",
