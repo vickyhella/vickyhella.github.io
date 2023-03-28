@@ -25,7 +25,7 @@ This document shows some of the skills I learned (from the Internet or my co-wor
 ## Command-Line Skills
 ### Changing the Default Directory in Terminal
 
-The default directory of the terminal is the user's root directory. If we want to change it to a directory that is used more often, you can:
+The default directory of the terminal is the user's root directory. If you want to change it to a directory that is used more often, you can:
 
 1. Open the `~/.zshrc` file:
 

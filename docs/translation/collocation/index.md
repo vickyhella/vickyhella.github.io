@@ -5,7 +5,7 @@ title: Common Collocation Mistakes
 
 ## Introduction
 
-This document introduces some common collocation mistakes that we made when writing in English.
+This document introduces some common collocation mistakes in English writing.
 
 ## Mistake Examples
 

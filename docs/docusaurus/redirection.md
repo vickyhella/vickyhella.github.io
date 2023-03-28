@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## Redirecting a Page
 
-On the file (e.g., md or js files) that needs to be redirected, add the code below. Assume that we are adding the following code to the /docs/test.js page:
+On the file (e.g., md or js files) that needs to be redirected, add the code below. Assume that you are adding the following code to the /`docs/test.js` page:
 
   ```js
   import {Redirect} from '@docusaurus/router';

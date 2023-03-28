@@ -5,7 +5,7 @@ sidebar_position: 1
 
 To support multiple languages on your Docusaurus site, follow the instructions below:
 
-1. Add the following code to the `docusaurus.config.js` file, assuming we need to add `Simplified Chinese` support:
+1. Add the following code to the `docusaurus.config.js` file, assuming you need to add `Simplified Chinese` support:
 
   **Part 1**:
 

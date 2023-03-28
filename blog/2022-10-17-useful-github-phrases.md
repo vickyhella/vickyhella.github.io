@@ -5,7 +5,7 @@ tags: [github, git]
 
 ## Overview
 
-This post records some useful words/phrases that we can use when collaborating on GitHub.
+This post collects some useful words/phrases for collaborating on GitHub.
 
 ### Nit
 

@@ -17,7 +17,7 @@ export const Background = ({children, color}) => (
 
 ## Introduction
 
-Sometimes the native components of Docusaurus might not be enough for our docs. In this case, we can customize some components to add more styles to our pages.
+Sometimes the native components of Docusaurus might not be enough. In this case, you can customize some components to add more styles to your pages.
 
 ## Implementing Components
 
