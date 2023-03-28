@@ -1,19 +1,19 @@
 ---
-title: OmegaT Filter Configuration
-sidebar_position: 2
+title: Translating Markdown Files
+sidebar_position: 1
 tags: [omegat, cat, filter, okapi]
 ---
 
 ## Overview
 
-To make OmegaT work with Markdown files, parse YAML headers, and allow modifying links (these are what my project requires), we need to customize some settings.
+To make OmegaT work with Markdown files, parse YAML headers, and allow modifying links (these are what my project requires), you need to customize some settings.
 
-To do so, we need to add a filter plugin so that OmegaT can parse markdown files and customize a filter config file to allow translating links and YAML headers.
+To do so, you need to add a filter plugin so that OmegaT can parse markdown files and customize a filter config file to allow translating links and YAML headers.
 
 ## Instructions
 
 1. Download [Okapi’s OmegaT filter](https://okapiframework.org/wiki/index.php/Okapi_Filters_Plugin_for_OmegaT), which is available [here](https://okapiframework.org/binaries/omegat-plugin/).
-2. Open OmegaT, click **Options** > **Access configuration files.** In the folder that is opened, create a folder called `plugins` and drag the filter downloaded in Step 1 to this folder.
+2. Open OmegaT, click **Options** > **Access configuration files**. In the folder that is opened, create a folder called `plugins` and drag the filter downloaded in Step 1 to this folder.
     
 :::note
 At this stage, OmegaT can already parse markdown files. If you don’t need to translate links or YAML headers, you can skip the steps below.

@@ -1,18 +1,15 @@
 ---
-title: Introducing OmegaT's Markdown Support
-sidebar_position: 1
+title: Introducing OmegaT
 tags: [omegat, cat]
 ---
 
 ## My Demand
 
-I was looking for a CAT to translate markdown files. I expect it to:
+I was looking for a CAT to translate files of different formats such as Markdown, YAML, JSON, and PDF. I expect it to:
 
-- support markdown (a file format usually used in technical documents).
+- support markdown (a file format commonly used in technical documents).
 - preserve the original formats well (at least as much as possible).
 - be free-of-charge.
-
-## CAT Exploration
 
 I tried several CATs such as Trados, Wordfast, Matecat, and Smartcat, and found that OmegaT works the best for markdown files, especially when I need to do English-to-Chinese translation. 
 
@@ -22,7 +19,7 @@ I tried several CATs such as Trados, Wordfast, Matecat, and Smartcat, and found 
 
 Natively, OmegaT cannot parse markdown files. However, you can install the OKapi filter plugin to make OmegaT parse markdown files.
 
-I tried the OKapi markdown filter in OmegaT and compared the formats of the source and target files. I found that the filter has the format preserved pretty well (especially compared with Trados. Sorry Trados).
+I tried the OKapi markdown filter in OmegaT and compared the formats of the source and target files. I found that the filter has the format preserved pretty well (especially compared with Trados).
 
 ### Lightweight
 
