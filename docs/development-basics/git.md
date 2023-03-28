@@ -1,6 +1,6 @@
 ---
 title: Git
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 ## Introduction
@@ -22,7 +22,7 @@ In this way, your local branch will be synced with the origin/master branch.
 
 **Reviewers**
 
-When giving comments on GitHub, rather than commenting directly, reviewers can use the **Add Suggestion** option to improve the effeciency. To do so:
+When giving comments on GitHub, rather than commenting directly, reviewers can use the **Add Suggestion** option to improve the efficiency. To do so:
 1. Find the line(s) you want to comment on and click the **+** button.
 2. Click the **Add a Suggestion** button, and modify the content as needed. You can rewrite, delete, or add anything you need.
 3. Click **Start a review**. If you only need to give one single suggestion, instead of clicking **Start a review**, you can click **Add a single comment** and finish your review.

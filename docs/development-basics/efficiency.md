@@ -33,7 +33,7 @@ The default directory of the terminal is the user's root directory. If we want t
   vi ~/.zshrc
   ```
 
-2. Add the following line to the file. Note that you need to replace `<target-directory>` with the directory you wish to open everytime you open the terminal.
+2. Add the following line to the file. Note that you need to replace `<target-directory>` with the directory you wish to open every time you open the terminal.
 
   ```
   cd <target-directory>
