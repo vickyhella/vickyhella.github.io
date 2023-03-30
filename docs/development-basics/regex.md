@@ -60,11 +60,11 @@ This document collects useful regular expressions that are helpful for document 
 
 ### Markdown-Related Regex
 
-| Regex                               | Can Match                               |
-| ----------------------------------- | --------------------------------------- | ------------------------------ | ---------------------------- | --- | ---- |
-| `\[[\s\S]*?\]\([\s\S]*?#[\s\S]*?\)` | Links that end with #heading            |
-| `\[\w*.\w*\]\(#[\s\S]*?\)`          | Internal links within the same document |
-| `(https?                            | ftp                                     | file)://[-A-Za-z0-9+&@#/%?=~\_ | !:,.;]+[-A-Za-z0-9+&@#/%=~\_ | ]`  | URLs |
+| Regex                                                                       | Can Match                               |
+| --------------------------------------------------------------------------- | --------------------------------------- |
+| `\[[\s\S]*?\]\([\s\S]*?#[\s\S]*?\)`                                         | Links that end with #heading            |
+| `\[\w*.\w*\]\(#[\s\S]*?\)`                                                  | Internal links within the same document |
+| (https?\|ftp\|file)://[-A-Za-z0-9+&@#/%?=~_\|!:,.;]+[-A-Za-z0-9+&@#/%=~_\|] | URLs                                    |
 
 ## References
 

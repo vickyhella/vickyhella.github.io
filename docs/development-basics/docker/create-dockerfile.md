@@ -101,46 +101,46 @@ CMD ["npm", "start"]
 
 Once you have created your Dockerfile, you can use the `docker build` command to build a Docker image:
 
-  ```bash
-  docker build -t my-node-app .
-  ```
+```bash
+docker build -t my-node-app .
+```
 
-  This command tells Docker to build a new image with the tag `my-node-app` using the Dockerfile in the current directory (.).
+This command tells Docker to build a new image with the tag `my-node-app` using the Dockerfile in the current directory (.).
 
-  :::info
+:::info
 
-  If you need to tag your image, use the `-t` option:
+If you need to tag your image, use the `-t` option:
 
-  ```bash
-  docker build -t my-node-app:1.0.0 .
-  ```
+```bash
+docker build -t my-node-app:1.0.0 .
+```
 
-  This command builds a Docker image using the Dockerfile in the current directory and tags it with the name `my-app` and the version `1.0.0`.
+This command builds a Docker image using the Dockerfile in the current directory and tags it with the name `my-app` and the version `1.0.0`.
 
-  :::
+:::
 
 ## Run a Container
 
 To run the Docker container, use the following command:
 
-  ```bash
-  docker run -p 3000:3000 my-node-app
-  ```
+```bash
+docker run -p 3000:3000 my-node-app
+```
 
-  This command runs a container from the `my-node-app` image and maps port `3000` on the host to port `3000` in the container. The application will be accessible at `http://localhost:3000`.
+This command runs a container from the `my-node-app` image and maps port `3000` on the host to port `3000` in the container. The application will be accessible at `http://localhost:3000`.
 
-  :::info
+:::info
 
-  If you want to run your containers in teh background, run the `-d` flag:
+If you want to run your containers in teh background, run the `-d` flag:
 
-  ```bash
-  docker run -d -p 3000:3000 my-node-app
-  ```
+```bash
+docker run -d -p 3000:3000 my-node-app
+```
 
-  This command tells Docker to run the container in the background (detached mode). You can use the docker logs command to view the application logs later:
+This command tells Docker to run the container in the background (detached mode). You can use the docker logs command to view the application logs later:
 
-  ```bash
-  docker logs <container-id>
-  ```
+```bash
+docker logs <container-id>
+```
 
-  :::
+:::

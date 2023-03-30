@@ -1,5 +1,5 @@
 ---
-title: Basics
+title: Linux Command Basics
 sidebar_position: 1
 ---
 
