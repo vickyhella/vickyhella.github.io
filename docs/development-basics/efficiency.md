@@ -8,6 +8,11 @@ sidebar_position: 6
 This document shows some of the skills I learned (from the Internet or my co-workers) to improve efficiency.
 
 ## VSCode Skills
+
+### Useful shortcuts
+
+1. commenting out multiple lines: cmd+k+c
+
 ### Project-Specific VSCode Settings
 
 1. Press **Cmd + Shift + P** and then search for **Open Workspace Settings**:
