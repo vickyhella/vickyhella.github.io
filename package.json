@@ -11,7 +11,8 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "check-links": "remark --quiet --use remark-validate-links --use remark-lint-no-dead-urls docs i18n"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.17",
@@ -20,7 +21,10 @@
     "clsx": "^1.1.1",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "remark-cli": "^11.0.0",
+    "remark-lint-no-dead-urls": "^1.1.0",
+    "remark-validate-links": "^12.1.1"
   },
   "browserslist": {
     "production": [

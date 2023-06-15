@@ -14,7 +14,9 @@ jobs:
         with:
           node-version: 16.x
           cache: yarn
-      - name: Test build
-        run: |
-          yarn install --frozen-lockfile
-          yarn build
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Check external and internal broken links
+        run: yarn run remark --quiet --use remark-validate-links --use remark-lint-no-dead-urls docs i18n
+      - name: Test build website
+        run: yarn build
