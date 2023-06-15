@@ -63,6 +63,55 @@ To use this GitHub Action:
   The example above is just for simple use cases. To further customize the workflow, see the README file of the link checker.
   :::
 
+### Remark Plugin
+
+The third option is using the [remark plugin](https://github.com/remarkjs/remark), including [remark-validate-links](https://github.com/remarkjs/remark-validate-links) (checks internal links and headings) and [remark-lint-no-dead-urls](https://github.com/remarkjs/remark-lint-no-dead-urls) (checks external URLs).
+
+#### Installing the plugin
+
+To install the plugin:
+
+```bash
+yarn add remark-cli remark-validate-links remark-lint-no-dead-urls
+```
+
+Don't forget to run `yarn install` after adding the plugins.
+
+#### Checking the links
+
+To check the links:
+
+```bash
+yarn remark --quiet --use remark-validate-links --use remark-lint-no-dead-urls <file_directory>
+```
+
+:::note
+You need to replace `<file_directory>` with the directory that you need to check links for.
+:::
+
+To further simplify the process, you can add the command above to the `scripts` section of your `package.json` file as follows:
+
+```
+  "scripts": {
+    "check-links": "remark --quiet --use remark-validate-links --use remark-lint-no-dead-urls"
+  },
+```
+
+By doing so, you can easily run `yarn check-links <file_directory>` (equivalent to `yarn remark --quiet --use remark-validate-links --use remark-lint-no-dead-urls <file_directory>`) in your project to check the links.
+
+Additionally, you can add the command to the `test-deploy` GitHub action as follows:
+
+```bash
+- name: Install dependencies
+  run: yarn install --frozen-lockfile
+- name: Check external and internal broken links
+  run: yarn run remark --quiet --use remark-validate-links --use remark-lint-no-dead-urls <file_directory>
+- name: Test build website
+  run: yarn build
+```
+
+For more information, see the description of each plugin.
+
 ## Fixing Broken Links
 
 When a link is broken, it's possible that the original page is migrated or deleted. Therefore, you can fix it using either of the following methods as needed.
