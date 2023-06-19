@@ -108,7 +108,7 @@ In this way, you can call `my_function_1` using `alias_1`.
 
 ## Give a Module an Alias
 
-Similarly, ou can also give your module an alias:
+Similarly, you can also give your module an alias:
 
 ```python
 import module1 as module_1

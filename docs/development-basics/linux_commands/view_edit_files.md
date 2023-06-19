@@ -5,7 +5,9 @@ sidebar_position: 2
 
 ## `ls`
 
-`ls` is used to list directory contents of files and directories.
+`ls` is used to list files and directories.
+
+**Syntax**:
 
 ```shell
 ls [options] [file|dir]
@@ -15,19 +17,15 @@ ls -la # list long format including hidden files
 
 ## `vi/vim`
 
-The `vi` command (short for "visual") is a powerful text editor commonly found on Unix-like systems. It provides a **full-screen text editing interface** with various features for creating, modifying, and saving text files.
+The `vi` command (short for "visual") provides a **full-screen text editing interface** to create, modify, and save text files.
 
-Syntax: `vi [options] [file]`
+**Syntax**:
 
-Key features of the `vi` command:
-- Text editing: It allows editing files in insert, command, and visual modes.
-- Navigation: It provides navigation within the file using cursor movements.
-- Search and replace: It supports searching for specific text patterns and replacing them.
-- Syntax highlighting: It can highlight syntax elements based on the file type.
-- Multiple buffers: It allows working with multiple files simultaneously using buffers.
-- Configuration and customization: It provides options to customize the editor's behavior.
+```shell
+vi [options] [file]
+```
 
-Example usage:
+**Example usage**:
 
 ```bash
 vi .
@@ -44,18 +42,15 @@ sudo vi /etc/hosts # To modify host/add IP-domain mapping
 
 The `cat` command (short for "concatenate") is primarily used for displaying the contents of files on the terminal. It is a simple command that reads one or more files and prints their content sequentially.
 
-Syntax: `cat [options] [file...]`
+**Syntax**:
 
-Key features of the `cat` command:
-- Concatenation: It can combine multiple files and display their contents together.
-- Displaying file contents: It displays the entire content of a file on the terminal.
-- Creating new files: It can create new files and populate them with content from the terminal or other files.
-- Appending to files: It can append the content of a file to the end of another file.
-- Copying files: It can copy the content of one file to another.
+```shell
+cat [options] [file...]
+```
 
-Example usage:
+**Example usage**:
 
-```bash
+```shell
 cat file.txt            # Display the content of "file.txt" on the terminal.
 cat file1.txt file2.txt # Concatenate the contents of "file1.txt" and "file2.txt".
 cat > newfile.txt       # Create a new file "newfile.txt" and enter content from the terminal.

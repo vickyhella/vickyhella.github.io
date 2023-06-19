@@ -131,7 +131,7 @@ This command runs a container from the `my-node-app` image and maps port `3000` 
 
 :::info
 
-If you want to run your containers in teh background, run the `-d` flag:
+If you want to run your containers in the background, run the `-d` flag:
 
 ```bash
 docker run -d -p 3000:3000 my-node-app
