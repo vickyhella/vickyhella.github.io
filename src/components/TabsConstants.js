@@ -57,11 +57,11 @@
  const defaultPlatform = isMacOS ? 'ios' : 'android';
  
  const oses = [
-   {label: 'macOS', value: 'macos'},
-   {label: 'Windows', value: 'windows'},
-   {label: 'Linux', value: 'linux'},
+   {label: 'macOS', value: 'macOS'},
+   {label: 'Windows', value: 'Windows'},
+   {label: 'Linux', value: 'Linux'},
  ];
- const defaultOs = isMacOS ? 'macos' : isWindows ? 'windows' : 'linux';
+ const defaultOs = isMacOS ? 'macOS' : isWindows ? 'Windows' : 'Linux';
  
  const getDevNotesTabs = (tabs = ['android', 'ios', 'web', 'windows']) =>
    [
