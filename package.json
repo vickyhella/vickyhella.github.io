@@ -15,10 +15,15 @@
     "check-links": "remark --quiet --use remark-validate-links --use remark-lint-no-dead-urls docs i18n"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.17",
+    "@docusaurus/core": "^2.4.1",
+    "@docusaurus/plugin-client-redirects": "^2.4.1",
+    "@docusaurus/plugin-content-blog": "^2.4.1",
+    "@docusaurus/plugin-content-docs": "^2.4.1",
+    "@docusaurus/plugin-content-pages": "^2.4.1",
+    "@docusaurus/plugin-debug": "^2.4.1",
     "@docusaurus/plugin-google-gtag": "^2.4.1",
     "@docusaurus/plugin-google-tag-manager": "^2.4.1",
-    "@docusaurus/preset-classic": "2.0.0-beta.17",
+    "@docusaurus/preset-classic": "^2.4.1",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "prism-react-renderer": "^1.2.1",
