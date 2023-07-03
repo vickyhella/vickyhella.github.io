@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvickyhella_github_io=self.webpackChunkvickyhella_github_io||[]).push([[6652],{9724:function(t){t.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/github","name":"github","count":1,"permalink":"/blog/tags/github"}')}}]);

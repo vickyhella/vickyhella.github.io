@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvickyhella_github_io=self.webpackChunkvickyhella_github_io||[]).push([[6849],{6839:function(t){t.exports=JSON.parse('{"label":"introduction","permalink":"/zh/blog/tags/introduction","allTagsPath":"/zh/blog/tags","count":1}')}}]);
