@@ -47,6 +47,22 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag', // Add google gtag. For details, see https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-gtag
+      {
+        trackingID: 'G-CSJKGN2CK8',
+        anonymizeIP: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-google-tag-manager',
+      {
+        containerId: 'GTM-TWXF9N9',
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
