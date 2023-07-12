@@ -15,8 +15,10 @@ To add a package, run:
 
 ```bash
 yarn add [package-name]@[version]
-# Exmaple
+# Exmaples
 yarn add @docusaurus/core@latest
+# Upgrade two packages
+yarn add react@latest react-dom@latest
 ```
 
 For details, see [`yarn add`](https://classic.yarnpkg.com/lang/en/docs/cli/add/).
@@ -30,8 +32,9 @@ To upgrade a package, run:
 
 ```bash
 yarn upgrade [package-name]@[version]
-# Example
-yarn upgrade @docusaurus/core@latest 
+# Examples
+yarn upgrade @docusaurus/core@latest
+yarn upgrade @docusaurus/core@latest @docusaurus/plugin-client-redirects@latest @docusaurus/plugin-content-blog@latest @docusaurus/plugin-content-docs@latest @docusaurus/plugin-content-pages@latest @docusaurus/plugin-debug@latest @docusaurus/preset-classic@latest
 ```
 
 For details, see [`yarn upgrade`](https://classic.yarnpkg.com/lang/en/docs/cli/upgrade/).

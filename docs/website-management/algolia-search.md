@@ -72,7 +72,27 @@ Nb hits: 9
 It might take several minutes for the records to be uploaded.
 :::
 
-You can now go back to the [Algolia console](https://www.algolia.com/) and see the updated records.
+You can now go back to the [Algolia console](https://dashboard.algolia.com/) and see the updated records.
+
+## Viewing the Search Data
+
+To get an insight of your users' search behaviors:
+
+1. Log in to your [Algolia console](https://dashboard.algolia.com/).
+1. Click the **Search** icon in the left navigation bar.
+1. Click **Analytics** under **OBSERVE**.
+
+On the page displayed, you can see an overview of the search data as well as the metrics below:
+
+- Total Users
+- Total Searches
+- No Results Rate
+- Click-through Rate
+- Conversion Rate
+- No Click Rate
+- Top Searches
+- Top Results
+- Searches Without Results
 
 ## References
 

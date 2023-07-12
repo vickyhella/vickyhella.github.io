@@ -1,17 +1,21 @@
 ---
-title: Improving Efficiency
+title: Boost Productivity
 sidebar_position: 6
 ---
 
 ## Introduction
 
-This document shows some of the skills I learned (from the Internet or my co-workers) to improve efficiency.
+This document shows some of the skills I learned (from the Internet or my co-workers) to boost productivity.
 
 ## VSCode Skills
 
-### Useful shortcuts
+### Useful Shortcuts
 
-1. commenting out multiple lines: cmd+k+c
+1. Comment out multiple lines: cmd+k+c
+1. Modify all occurrences: cmd+d
+1. Close the current windowL: cmd+w
+1. Close all opened windows: cmd+k+w
+1. Quickly open a file using its name: cmd+p and then type in the filename
 
 ### Project-Specific VSCode Settings
 

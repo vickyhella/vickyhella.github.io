@@ -108,7 +108,9 @@ To modify the `export` command so that you VMs in Multipass can use your host pr
 3. Modify the proxy command to use the IP address of your Mac instead of `127.0.0.1`. For example, if your Mac's IP address is `192.168.0.2`, the modified command would look like:
 
   ```bash
-  export https_proxy=http://192.168.0.2:7890 http_proxy=http://192.168.0.2:7890 all_proxy=socks5://192.168.0.2:7890
+  export https_proxy=http://192.168.0.2:7890 \
+  http_proxy=http://192.168.0.2:7890 \
+  all_proxy=socks5://192.168.0.2:7890
   ```
 
 4. Launch your Multipass VM using the command line or the Multipass app.
