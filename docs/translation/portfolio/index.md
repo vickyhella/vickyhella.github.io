@@ -11,6 +11,6 @@ The translation portfolio is broken down into several categories according to th
   - Chinese to English
   - English to Chinese
 - Technical
-  - CDN
+  <!-- - CDN -->
   - Media
   - FAQs

@@ -1,5 +1,5 @@
 ---
-title: Boost Productivity
+title: Boosting Productivity
 sidebar_position: 6
 ---
 
