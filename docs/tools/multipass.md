@@ -63,6 +63,44 @@ multipass stop vm1
 
 This command stops the VM instance named `vm1`.
 
+### `multipass mount`
+
+`multipass mount` is used to mount a path on the host to a path in the VM instance, allowing you to share data between the two directories (see [this page](https://multipass.run/docs/share-data-with-an-instance#heading--using-mount)):
+
+```bash
+multipass mount $HOME vm1
+
+# result:
+multipass info vm1
+Mounts:         /home/vm1 => /home/vm1
+
+# example (username is ubuntu by default):
+multipass mount $HOME/path vm1:/home/username/path
+
+# result:
+# The path will be displayed in your VM's home directory
+```
+
+Mounts can also be specified as an option to the `launch` command:
+
+```bash
+multipass launch --mount /some/local/path:/some/instance/path
+```
+
+:::tip
+
+To let the mount works perfectly, ensure that you have granted multipass enough disk permissions on the host, for example, grant **Full Disk Access** permission to `multipassd` in your macOS.
+
+:::
+
+### `multipass unmount`
+
+`multipass unmount` is used to unmount the mounted paths:
+
+```bash
+multipass umount vm1
+```
+
 ### `multipass delete`
 
 `multipass delete` is used to delete a VM instance:

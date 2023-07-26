@@ -1,6 +1,6 @@
 ---
 title: Skim, LibreOffice, and Pandoc
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 ## Overview
