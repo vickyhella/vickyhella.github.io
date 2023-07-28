@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvickyhella_github_io=self.webpackChunkvickyhella_github_io||[]).push([[7144],{131:function(a){a.exports=JSON.parse('{"label":"metadata","permalink":"/docs/tags/metadata","allTagsPath":"/docs/tags","count":1,"items":[{"id":"dita/metadata","title":"Lesson 3: Metadata","description":"What is metadata","permalink":"/docs/dita/metadata"}]}')}}]);

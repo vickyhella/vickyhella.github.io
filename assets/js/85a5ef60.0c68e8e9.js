@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvickyhella_github_io=self.webpackChunkvickyhella_github_io||[]).push([[5196],{8336:function(i){i.exports=JSON.parse('{"label":"Topics","permalink":"/docs/tags/topics","allTagsPath":"/docs/tags","count":1,"items":[{"id":"dita/dita-topics","title":"Lesson 2: DITA Topics","description":"Introduction","permalink":"/docs/dita/dita-topics"}]}')}}]);

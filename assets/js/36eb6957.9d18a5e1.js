@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvickyhella_github_io=self.webpackChunkvickyhella_github_io||[]).push([[604],{2653:function(e){e.exports=JSON.parse('{"label":"Tables","permalink":"/docs/tags/tables","allTagsPath":"/docs/tags","count":1,"items":[{"id":"dita/tables","title":"Lesson 5: Tables","description":"The simpletable element","permalink":"/docs/dita/tables"}]}')}}]);
