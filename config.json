@@ -1,7 +1,7 @@
 {
     "index_name": "vickyhella",
-    "sitemap_urls": ["http://vickyhella.site/sitemap.xml"],
-    "start_urls": ["http://vickyhella.site/"],
+    "sitemap_urls": ["http://vickyhella.github.io/sitemap.xml"],
+    "start_urls": ["http://vickyhella.github.io/"],
     "selectors": {
       "lvl0": "",
       "lvl1": "article h1",
