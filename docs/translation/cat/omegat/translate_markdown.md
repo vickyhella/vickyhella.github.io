@@ -1,7 +1,7 @@
 ---
 title: Translating Markdown Files
 sidebar_position: 1
-tags: [omegat, cat, filter, okapi]
+tags: [OmegaT, CAT, filter, okapi]
 ---
 
 ## Overview

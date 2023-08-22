@@ -1,6 +1,6 @@
 ---
 title: Introducing OmegaT
-tags: [omegat, cat]
+tags: [OmegaT, CAT]
 ---
 
 ## My Demand
