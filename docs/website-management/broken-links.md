@@ -67,6 +67,16 @@ To use this GitHub Action:
 
 The third option is using the [remark plugin](https://github.com/remarkjs/remark), including [remark-validate-links](https://github.com/remarkjs/remark-validate-links) (checks internal links and headings) and [remark-lint-no-dead-urls](https://github.com/remarkjs/remark-lint-no-dead-urls) (checks external URLs).
 
+### Chrome Extension
+
+Check My Links is a Chrome extension that allows you to check links on a website.
+
+To use the checker, you can simplify install the plugin from [its Chrome Extension page](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf) and then click the extension icon from the Chrome toolbar on the page you want to check links for.
+
+The extension checks all links on the website, and good links will become green and bad links will become red as follows:
+
+![Check my Links official image](https://lh3.googleusercontent.com/PIFQvmPvomWD50aNPF25dgZtnOEPfayHyWcfn7Gv4xrhyDbXQQNsJwVOKtDOAtCt3r_uCHKRKbjoBblGJb5OqKKE-hg=w640-h400-e365-rj-sc0x00ffffff)
+
 #### Installing the plugin
 
 To install the plugin:
