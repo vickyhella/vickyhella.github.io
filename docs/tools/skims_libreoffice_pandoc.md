@@ -18,12 +18,15 @@ To install pandoc on Mac, run:
 brew install pandoc
 ```
 
-### Converting File Formats
+### Converting file formats
 
 To convert a file into another format:
 
 ```bash
-pandoc -s -o "[converted file including path]" "file to convert including path"
+pandoc -s "file to convert including path" -o "[converted file including path]" 
+
+# Example: convert from markdown to pdf
+pandoc -s source.md -o target.pdf
 ```
 
 For more information, see [Installing pandoc](https://pandoc.org/installing.html).
