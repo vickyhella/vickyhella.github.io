@@ -3,7 +3,7 @@ title: Algolia Search
 sidebar_position: 3
 ---
 
-## Uploading Search Records
+## Uploading search records
 
 This document describes how to generate and upload your search records to Algolia. You can follow the instructions here after updating the docs, or when you found that the search didn't return the results as needed.
 
@@ -16,7 +16,7 @@ You need to install:
   brew install jq
   ```
 
-### Preparing the Files Needed
+### Preparing the files needed
 
 You need to create a directory that contains the following two files:
 - `.env`: Replace `YOUR_APP_ID` and `YOUR_API_KEY` with the actual ones:
@@ -49,7 +49,7 @@ You need to create a directory that contains the following two files:
   }
   ```
 
-### Generating/Updating Records
+### Generating/Updating records
 
 Go to the directory that contains the `.env` and `config.json` files and run the command below:
 
@@ -74,7 +74,7 @@ It might take several minutes for the records to be uploaded.
 
 You can now go back to the [Algolia console](https://dashboard.algolia.com/) and see the updated records.
 
-## Viewing the Search Data
+## Viewing the search data
 
 To get an insight of your users' search behaviors:
 

@@ -3,7 +3,7 @@ title: Redirection
 sidebar_position: 3
 ---
 
-## Redirecting a Page
+## Redirecting a page
 
 On the file (e.g., md or js files) that needs to be redirected, add the code below. Assume that you are adding the following code to the /`docs/test.js` page:
 
@@ -17,7 +17,7 @@ On the file (e.g., md or js files) that needs to be redirected, add the code bel
 
   With the `@docusaurus/router` component, users accessing the `test.js` page will be directed to the homepage `/`.
 
-### Redirection in Multi-Language Use Cases
+### Redirection in multi-language use cases
 
 If your Docusaurus site provides more than one language, the code above will not work for non-default languages.
 

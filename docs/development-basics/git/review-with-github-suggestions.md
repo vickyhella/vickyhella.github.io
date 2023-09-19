@@ -13,7 +13,7 @@ When giving comments on GitHub, rather than commenting directly, reviewers can u
 1. When you finish the review, click **Finish your review** in the upper right corner.
 1. (Optional) Write a comment to summarize your suggestions, and then click **Comment**.
 
-## PR Owners
+## PR owners
 
 - To accept one single suggestion:
 

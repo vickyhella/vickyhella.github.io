@@ -9,7 +9,7 @@ Multipass is an open-source **command-line tool** that allows developers to quic
 
 This document introduces some basic Multipass commands and their usage. For more information, see [Multipass documentation](https://multipass.run/docs).
 
-## Multipass Commands
+## Multipass commands
 
 ### `multipass launch`
 
@@ -127,7 +127,7 @@ multipass info
 
 This command displays information about the installed version of Multipass, the location of the image cache, and other details.
 
-## Using Proxy in Multipass VMs
+## Using proxy in Multipass VMs
 
 Assuming you use Clash and have your own VPN subscription, you should see a terminal command in clash similar to mine: `export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890`.
 
@@ -196,7 +196,7 @@ unset http_proxy https_proxy all_proxy
 
 :::
 
-## Available Commands
+## Available commands
 
 The table below lists all available commands that multipass supports:
 

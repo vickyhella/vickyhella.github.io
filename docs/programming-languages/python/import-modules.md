@@ -96,7 +96,7 @@ You can also import more functions if needed:
 from modules.module1 import my_function_1 my_another_function
 ```
 
-## Give a Function an Alias
+## Give a function an alias
 
 Sometimes the function name can be too long or duplicates with another function name. In this case, you can give your function an alias:
 
@@ -106,7 +106,7 @@ from modules.module1 import my_function_1 as alias_1
 
 In this way, you can call `my_function_1` using `alias_1`.
 
-## Give a Module an Alias
+## Give a module an alias
 
 Similarly, you can also give your module an alias:
 
@@ -116,7 +116,7 @@ import module1 as module_1
 
 With this `import` statement, you can call `module1` using `module_1`.
 
-## Import all Functions in a Module
+## Import all functions in a module
 
 To import all the functions in a module, use the asterisk (*) in the `import` statement:
 
@@ -124,7 +124,7 @@ To import all the functions in a module, use the asterisk (*) in the `import` st
 from module1 import *
 ```
 
-## Running Python Scripts in Bash Scripts
+## Running Python scripts in Bash scripts
 
 To use your python modules in a bash script, you can't use the `import` statement. Instead, use the `python module1.py` command in your script:
 

@@ -119,7 +119,7 @@ This command builds a Docker image using the Dockerfile in the current directory
 
 :::
 
-## Run a Container
+## Run a container
 
 To run the Docker container, use the following command:
 

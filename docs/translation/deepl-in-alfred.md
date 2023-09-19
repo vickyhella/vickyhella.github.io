@@ -16,14 +16,14 @@ Before you start, ensure that you have
 - A DeepL API key.
 - Installed Alfred and the **Workflows** feature is available.
 
-## Installing the Workflow
+## Installing the workflow
 
 1. Download the [DeepL Alfred workflow](https://github.com/AlexanderWillner/deepl-alfred-workflow2/releases/tag/v1.11).
 1. Open **Alfred Preferences** and click the **Workflows** tab.
 1. Drag the workflow downloaded in **Step 1** to the panel.
 1. Paste your DeepL API key to the **API Key** field, set your target and source languages as needed, and click **Save**. Now you should have your workflow successfully configured.
 
-## Using the Workflow
+## Using the workflow
 
 To use the workflow:
 

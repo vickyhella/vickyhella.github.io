@@ -3,7 +3,7 @@ sidebar_position: 2
 title: General
 ---
 
-## 1. Government Work Report
+## 1. Government work report
 
 | NO. | Source | Target |
 | --- | --- | --- |

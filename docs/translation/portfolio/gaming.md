@@ -7,7 +7,7 @@ The translation is categorized into two sections, Chinese to English and English
 
 ## 1. Chinese to English
 
-### 1.1. Game Release
+### 1.1. Game release
 
 | NO. | Source | Target |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ The translation is categorized into two sections, Chinese to English and English
 | 3 | 《罪恶都市：新奥尔良》将会是一款免费的开放世界游戏，玩家可以在游戏中的新奥尔良市为所欲为，游戏保持了此类型作品一贯的高自由度。 | First up is the free open-world game, Gangstar New Orleans. The game gives players complete freedom to explore the fascinating city of New Orleans as they wish, just as other games of this genre always did. |
 | 4 | 而至于《现代战争6：对战》，则是经典大作《现代战争》系列的最新正统续作。游戏将在画面上加入优秀远景设计、复杂交火场地以及丰富自然风光等诸多元素，他们希望将《现代战争6》打造成为一款真正具有电子竞技意味的手机游戏。 | Second comes the latest title (6th) in the classic Modern Combat series, Modern Combat Versus. By using excellent wide shots, complex battlefields, and a wide variety of beautiful landscapes in visuals, the team is dedicated to making Modern Combat Versus a real mobile eSports game. |
 
-### 1.2. Activity Description
+### 1.2. Activity description
 
 | NO. | Source | Target |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ The translation is categorized into two sections, Chinese to English and English
 | 3 | 同乐会上不仅惊喜见证日本NICONICO知名舞姬足太姬、中国知名舞姬乐小曼的精彩共舞，更有《阴阳师》主美与神泉苑主人北村先生的文化介绍、同行玩家当场告白等亮点不断。 | They also witnessed an unexpected but wonderful collaboration presented by two well-known dance artists, Ashibuto Penta (dancer on Nico Nico Douga) from Japan, and Le Xiaoman from China. Owner of the Shinsen-en Garden, Mr. Kitamura, and art director of Onmyoji, Dai Qifeng, delivered a passionate introduction to Japanese culture. The trip turned out fun and pleasant. A player even confessed to his lover during the activity. |
 | 4 | 在同乐会开场致辞中，《阴阳师》主美戴其峰重申了《阴阳师》重视玩家的理念、对玩家的感恩与真诚，并预告《阴阳师》即将有新版本发布的重磅内幕。 | In the opening speech, Dai Qifeng reiterated that the team will always value its supporters, demonstrating their gratitude and sincerity to them. He also revealed the exciting inside information about the upcoming new version of Onmyoji. |
 
-### 1.3. Game Introduction
+### 1.3. Game introduction
 
 | NO. | Source | Target |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ The translation is categorized into two sections, Chinese to English and English
 
 ## 2. English to Chinese
 
-#### 2.1. Company News
+#### 2.1. Company news
 
 | NO. | Source | Target |
 | --- | --- | --- |
@@ -46,7 +46,7 @@ The translation is categorized into two sections, Chinese to English and English
 | 4 | Nintendo had previously suggested it was looking for additional partners with which to develop mobile games as it seeks to make them a more prominent part of its business. | 任天堂此前表示，希望手游业务成为任天堂业务中更重要的一部分。因此，任天堂也在积极寻求手游研发伙伴。 |
 | 5 | Nintendo is also continuing to move ahead with its plans for a Super Nintendo Land theme park, which it plans to have open in time for 2020. Additionally, the company has stated that the Mario animated movie will release in theaters sometime around 2022. | 超级任天堂世界主题公园计划也在持续推进，预计在2020年对外开放。马里奥动画电影也将在2022年左右上映。 |
 
-#### 2.2. Game Rankings
+#### 2.2. Game rankings
 
 | NO. | Source | Target |
 | --- | --- | --- |

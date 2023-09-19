@@ -8,11 +8,11 @@ sidebar_position: 4
 When maintaining the project documentation, it's important to fix the broken links to save readers' time and make the documentation look more professional and well-maintained.
 
 
-## Finding Broken Links
+## Finding broken links
 
 This section will include some link checkers that I found useful.
 
-### Command-Line Tools
+### Command-line tools
 
 You can check if a site contains broken link from the terminal. [Broken-link-checker](https://github.com/stevenvachon/broken-link-checker) is the tool I found useful.
 
@@ -35,7 +35,7 @@ You can run `blc --help` to find more available options.
 You need to replace `<URL>` or `<path>` with the actual ones that you want to find broken links for.
 :::
 
-### GitHub Actions
+### GitHub actions
 
 Instead of running the command for broken links, you can also add a GitHub action to automate link checks. This documentation project uses the [Markdown link check ](https://github.com/gaurav-nelson/github-action-markdown-link-check) GitHub action to find broken links.
 
@@ -63,11 +63,11 @@ To use this GitHub Action:
   The example above is just for simple use cases. To further customize the workflow, see the README file of the link checker.
   :::
 
-### Remark Plugin
+### Remark plugin
 
 The third option is using the [remark plugin](https://github.com/remarkjs/remark), including [remark-validate-links](https://github.com/remarkjs/remark-validate-links) (checks internal links and headings) and [remark-lint-no-dead-urls](https://github.com/remarkjs/remark-lint-no-dead-urls) (checks external URLs).
 
-### Chrome Extension
+### Chrome extensions
 
 Check My Links is a Chrome extension that allows you to check links on a website.
 
@@ -122,16 +122,16 @@ Additionally, you can add the command to the `test-deploy` GitHub action as foll
 
 For more information, see the description of each plugin.
 
-## Fixing Broken Links
+## Fixing broken links
 
 When a link is broken, it's possible that the original page is migrated or deleted. Therefore, you can fix it using either of the following methods as needed.
 
 - If the original page is migrated, find where the page is migrated and use the new URL in your docs.
 - If the original page is deleted, or you cannot find where it's migrated, delete the link from your docs.
 
-## More Info
+## More info
 
-### Adding an ID to Headings{#heading-id}
+### Adding an ID to headings{#heading-id}
 
 Usually, a level-2 heading in MD files named `test` is as follows:
 

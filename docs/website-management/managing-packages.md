@@ -8,7 +8,7 @@ sidebar_position: 7
 
 This document outlines some common <Highlight color="#25c2a0">Yarn</Highlight> commands.
 
-## Adding Packages
+## Adding packages
 
 To add a package, run:
 
@@ -25,7 +25,7 @@ For details, see [`yarn add`](https://classic.yarnpkg.com/lang/en/docs/cli/add/)
 
 
 
-## Upgrading Packages
+## Upgrading packages
 
 To upgrade a package, run:
 
