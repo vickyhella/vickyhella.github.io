@@ -26,7 +26,6 @@ This page is a collection of links that may come in handy during day-to-day work
 
 ## Style guides
 
-- [Style and formatting guide](/display/RD/Style+and+formatting+guide) for Rancher docs.
 - [Microsoft style guide](https://learn.microsoft.com/en-us/style-guide/welcome/) - Primarily used by Rancher docs for legacy reasons.
 - [SUSE style guide](https://documentation.suse.com/style/current/single-html/docu_styleguide/) - Used as a secondary guide where the MS guide isn't relevant or doesn't have any advice.
 
@@ -38,7 +37,7 @@ This page is a collection of links that may come in handy during day-to-day work
 - **The Kubernetes Book** (learn the jargon and how to run clusters): [https://leanpub.com/thekubernetesbook](https://leanpub.com/thekubernetesbook)
 - **What's the difference between K8s and K3s?**[https://traefik.io/glossary/k3s-explained/](https://traefik.io/glossary/k3s-explained/)
 - **Etcd**: [https://etcd.io/docs/v3.5/faq/](https://etcd.io/docs/v3.5/faq/)
-- **NGINX ingress controllers**: [NGINX Ingress controller projects](/display/~mavedon/NGINX+Ingress+controller+projects)
+- **NGINX ingress controllers**
 
 ### Rancher
 
@@ -69,7 +68,5 @@ Microsoft should be listed as your primary Vale style, while the [SUSE style gui
 ## Company resources
 
 - [Meeting Recordings](https://web.microsoftstream.com/).
-- [Support Matrix](https://rancher.com/support-maintenance-terms/all-supported-versions/rancher-v2.5.9/) - Supported versions for a given Rancher release [Rancher Manager Matrices](/display/PM/Rancher+Manager+Matrices)(including drafts for upcoming releases)
-- [Rancher Manager and RKE2/K3s Release Dates](/pages/viewpage.action?pageId=1138196992)
-- [Rancher 2 SMEs](/display/EN/Rancher+2+SMEs)
-- [SUSE Account Overview](/display/SUSE/SUSE+Account+Overview) - A table listing out the different internal user accounts, and how to access them, request password resets, etc.
+- [Support Matrix](https://rancher.com/support-maintenance-terms/all-supported-versions/rancher-v2.5.9/) 
+- A table listing out the different internal user accounts, and how to access them, request password resets, etc.
