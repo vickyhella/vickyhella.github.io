@@ -3,13 +3,13 @@ title: Updating Algolia Records
 sidebar_position: 3
 ---
 
-This document describes how to generate and upload your search records to Algolia. You can follow the instructions here after updating the docs, or when you found that the search didn't return the results as needed.
+This document describes how to generate and upload your search records to Algolia. You can follow the instructions here after updating the docs or when you find that the search didn't return the results as needed.
 
 ### Prerequisites
 
 You need to install:
 - Docker
-- [jq](https://github.com/stedolan/jq/wiki/Installation): a lightweight command-line JSON processer. To quickly install it on Mac, run the command below:
+- [jq](https://github.com/stedolan/jq/wiki/Installation): a lightweight command-line JSON processor. To quickly install it on Mac, run the command below:
   ```bash
   brew install jq
   ```
@@ -89,13 +89,13 @@ It might take several minutes for the records to be uploaded.
 
 Uploading Algolia records is simply done from the command-line tool and doesn't require a console login.
 
-If you want to view the search trend and get statistics on the top search keywords, you can log into the Algolia console to have a look (described in the section below).
+If you want to view the search trend and get statistics on keywords that are searched the most, you can log into the Algolia console to have a look (described in the section below).
 
 :::
 
 ## Viewing the search data
 
-To get an insight of your users' search behaviors:
+To get an insight into your users' search behaviors:
 
 1. Log in to your [Algolia console](https://dashboard.algolia.com/).
 1. Click the **Search** icon in the left navigation bar.

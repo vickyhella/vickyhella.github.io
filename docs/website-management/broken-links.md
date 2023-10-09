@@ -5,7 +5,7 @@ sidebar_position: 4
 
 ## Introduction
 
-When maintaining the project documentation, it's important to fix the broken links to save readers' time and make the documentation look more professional and well-maintained.
+For maintainers of a documentation website, it's important to fix the broken links to save readers' time and make the documentation look more professional and well-maintained.
 
 
 ## Finding broken links
@@ -14,7 +14,7 @@ This section includes some useful link checkers.
 
 ### Command-line tools
 
-You can check if a site contains broken link from the terminal. [Broken-link-checker](https://github.com/stevenvachon/broken-link-checker) is the tool I found useful.
+You can check if a site contains broken links from the terminal. [Broken-link-checker](https://github.com/stevenvachon/broken-link-checker) is the tool that you can choose.
 
 First, you need to install the tool as follows:
 
@@ -65,38 +65,34 @@ To use this GitHub Action:
 
 ### Remark plugin
 
-The third option is using the [remark plugin](https://github.com/remarkjs/remark), including [remark-validate-links](https://github.com/remarkjs/remark-validate-links) (checks internal links and headings) and [remark-lint-no-dead-urls](https://github.com/remarkjs/remark-lint-no-dead-urls) (checks external URLs).
+The third option is using the [remark](https://github.com/remarkjs/remark) plugin, which provides [remark-validate-links](https://github.com/remarkjs/remark-validate-links) and [remark-lint-no-dead-urls](https://github.com/remarkjs/remark-lint-no-dead-urls) to check internal links and external URLs.
 
-### Chrome extensions
+#### Install the plugin
 
-Check My Links is a Chrome extension that allows you to check links on a website.
+To install the plugin
 
-To use the checker, you can simplify install the plugin from [its Chrome Extension page](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf) and then click the extension icon from the Chrome toolbar on the page you want to check links for.
+1. Add the plugin package by running the command below:
 
-The extension checks all links on the website, and good links will become green and bad links will become red as follows:
+  ```bash
+  yarn add remark-cli remark-validate-links remark-lint-no-dead-urls
+  ```
 
-![Check my Links official image](https://lh3.googleusercontent.com/PIFQvmPvomWD50aNPF25dgZtnOEPfayHyWcfn7Gv4xrhyDbXQQNsJwVOKtDOAtCt3r_uCHKRKbjoBblGJb5OqKKE-hg=w640-h400-e365-rj-sc0x00ffffff)
+2. Install the plugin:
 
-#### Install the plugins
-
-To install the plugins:
-
-```bash
-yarn add remark-cli remark-validate-links remark-lint-no-dead-urls
-```
-
-Don't forget to run `yarn install` after adding the plugins.
+  ```bash
+  yarn install
+  ```
 
 #### Check the links
 
-To check the links:
+To check the links, run:
 
 ```bash
 yarn remark --quiet --use remark-validate-links --use remark-lint-no-dead-urls <file_directory>
 ```
 
 :::note
-You need to replace `<file_directory>` with the directory that you need to check links for.
+You need to replace `<file_directory>` with the directory that you need to check links for. To check links for multiple directories, use a space to separate the directories.
 :::
 
 To further simplify the process, you can add the command above to the `scripts` section of your `package.json` file as follows:
@@ -122,16 +118,26 @@ Additionally, you can add the command to the `test-deploy` GitHub action as foll
 
 For more information, see the description of each plugin.
 
+### Chrome extensions
+
+Check My Links is a Chrome extension that allows you to check links on a website.
+
+To use the checker, you can simply install the plugin from [its Chrome Extension page](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf) and then click the extension icon from the Chrome toolbar on the page you want to check links for.
+
+The extension checks all links on the website. Good links will become green and bad links will become red as follows:
+
+![Check my Links official image](https://lh3.googleusercontent.com/PIFQvmPvomWD50aNPF25dgZtnOEPfayHyWcfn7Gv4xrhyDbXQQNsJwVOKtDOAtCt3r_uCHKRKbjoBblGJb5OqKKE-hg=w640-h400-e365-rj-sc0x00ffffff)
+
 ## Fixing broken links
+
+### General practices
 
 When a link is broken, it's possible that the original page is migrated or deleted. Therefore, you can fix it using either of the following methods as needed.
 
 - If the original page is migrated, find where the page is migrated and use the new URL in your docs.
 - If the original page is deleted, or you cannot find where it's migrated, delete the link from your docs.
 
-## More info
-
-### Adding an ID to headings{#heading-id}
+### Handling broken heading links
 
 Usually, a level-2 heading in MD files named `test` is as follows:
 
@@ -141,12 +147,14 @@ Usually, a level-2 heading in MD files named `test` is as follows:
 
 When the heading is clicked in a browser, the URL will be `domain/test#this-is-a-heading`. In other words, if the heading text is changed, the link referenced in other docs will be broken.
 
-To avoid this, you can add an ID to headings as follows:
+
+#### Adding an ID to headings{#heading-id}
+
+To avoid this, you can add an ID to a heading as follows:
 
 ```
 ## This is a Heading {#my-cool-id}
 ```
-
 
 In this way, the URL will become `domain/test#my-cool-id`. Maintainers can change the `This is a Heading` text as needed as long as they keep `{#my-cool-id}` unchanged. When other docs need to reference this heading, they can simply use `domain/test#my-cool-id`.
 
