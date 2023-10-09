@@ -4,6 +4,7 @@ import MDXComponents from '@theme-original/MDXComponents';
 import Highlight from '@site/src/components/Highlight';
 import TabItem from '@theme-original/TabItem';
 import Tabs from '@theme-original/Tabs';
+import Mermaid from '@theme-original/Mermaid';
 import ColorText from '@site/src/components/ColorText';
 
 export default {
@@ -14,5 +15,6 @@ export default {
   Highlight,
   TabItem,
   Tabs,
-  ColorText
+  ColorText,
+  Mermaid
 };

@@ -10,7 +10,7 @@ When maintaining the project documentation, it's important to fix the broken lin
 
 ## Finding broken links
 
-This section will include some link checkers that I found useful.
+This section includes some useful link checkers.
 
 ### Command-line tools
 
@@ -77,9 +77,9 @@ The extension checks all links on the website, and good links will become green 
 
 ![Check my Links official image](https://lh3.googleusercontent.com/PIFQvmPvomWD50aNPF25dgZtnOEPfayHyWcfn7Gv4xrhyDbXQQNsJwVOKtDOAtCt3r_uCHKRKbjoBblGJb5OqKKE-hg=w640-h400-e365-rj-sc0x00ffffff)
 
-#### Installing the plugin
+#### Install the plugins
 
-To install the plugin:
+To install the plugins:
 
 ```bash
 yarn add remark-cli remark-validate-links remark-lint-no-dead-urls
@@ -87,7 +87,7 @@ yarn add remark-cli remark-validate-links remark-lint-no-dead-urls
 
 Don't forget to run `yarn install` after adding the plugins.
 
-#### Checking the links
+#### Check the links
 
 To check the links:
 

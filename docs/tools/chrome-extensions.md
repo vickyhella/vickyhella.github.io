@@ -1,6 +1,6 @@
 ---
 title: Chrome Extensions
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 This document outlines some Chrome extensions that I use a lot and highly recommend:

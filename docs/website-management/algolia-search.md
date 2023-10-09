@@ -1,9 +1,7 @@
 ---
-title: Algolia Search
+title: Updating Algolia Records
 sidebar_position: 3
 ---
-
-## Uploading search records
 
 This document describes how to generate and upload your search records to Algolia. You can follow the instructions here after updating the docs, or when you found that the search didn't return the results as needed.
 
@@ -18,14 +16,19 @@ You need to install:
 
 ### Preparing the files needed
 
-You need to create a directory that contains the following two files:
-- `.env`: Replace `YOUR_APP_ID` and `YOUR_API_KEY` with the actual ones:
+1. Create a folder called `algolia-project` in any location you want.
+1. In this folder, create a file called `.env` with the following content:
+
   ```
-  APPLICATION_ID=YOUR_APP_ID
-  API_KEY=YOUR_API_KEY
+  APPLICATION_ID=<YOUR_APP_ID>
+  API_KEY=<YOUR_API_KEY>
   ```
-- `config.json`: Replace `<index-name>` and `<example-url>` with the actual ones:
-  ```
+
+  Replace `<YOUR_APP_ID>` and `<YOUR_API_KEY>` with the actual ones:
+
+1. Create another file called `config.json` with the following content:
+
+  ```json
   {
   "index_name": "<index-name>",
   "sitemap_urls": ["http://<example-url>/sitemap.xml"],
@@ -49,17 +52,25 @@ You need to create a directory that contains the following two files:
   }
   ```
 
-### Generating/Updating records
+  Replace `<index-name>` and `<example-url>` with the actual ones.
 
-Go to the directory that contains the `.env` and `config.json` files and run the command below:
+  :::info
+  
+  After this, your `algolia-project` folder should have two files: `.env` and `config.json`.
 
-```
+  :::
+
+### Updating records
+
+Go to the directory (`algolia-project`) that contains the `.env` and `config.json` files and run the command below:
+
+```bash
 docker run -it --env-file=.env -e "CONFIG=$(cat ./config.json | jq -r tostring)" algolia/docsearch-scraper
 ```
 
 After the command is run successfully, it will output the number of records generated as follows:
 
-```
+```bash
 > DocSearch: https://example-url-1/ 0 records)
 > DocSearch: https://example-url-2/ 1 records)
 > DocSearch: https://example-url-3/ 4 records)
@@ -68,11 +79,19 @@ After the command is run successfully, it will output the number of records gene
 Nb hits: 9
 ```
 
+After this, your records should be uploaded and updated. You can wait for a while and then search the newly uploaded records on your website for verification.
+
 :::note
 It might take several minutes for the records to be uploaded.
 :::
 
-You can now go back to the [Algolia console](https://dashboard.algolia.com/) and see the updated records.
+:::info
+
+Uploading Algolia records is simply done from the command-line tool and doesn't require a console login.
+
+If you want to view the search trend and get statistics on the top search keywords, you can log into the Algolia console to have a look (described in the section below).
+
+:::
 
 ## Viewing the search data
 

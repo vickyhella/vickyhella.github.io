@@ -32,7 +32,7 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/vickyhella/vickyhella.github.io/edit/main',
           showLastUpdateAuthor: true,
-          showLastUpdateTime: false,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,

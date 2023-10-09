@@ -3,6 +3,8 @@ title: Home
 sidebar_position: 1
 ---
 
+## Intro
+
 Dear visitor,
 
 
@@ -15,3 +17,10 @@ Anyway, if you find anything you need here, that'd be my honor.
 Wish you all the best sincerely,
 
 Vicky
+
+## Currently learning
+
+- JavaScript basics
+- Python basics
+- Mermaid diagrams
+- Reading Microsoft Writing Style Guide
