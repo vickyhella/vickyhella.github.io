@@ -7,15 +7,6 @@ This page is a collection of links that may come in handy during day-to-day work
 
 ---
 
-## Repos
-
-- [Repository for Rancher, RKE, K3s, and RancherOS documentation](http://github.com/rancher/docs).
-- [Repository for the rancher.com website](https://github.com/rancherlabs/website).
-- [Repository for RKE2 documentation](https://github.com/rancher/rke2/tree/master/docs).
-- [Repository for Rancher, RKE, RKE2, and K3s release-notes](https://github.com/rancherlabs/release-notes).
-- [Repository for security-related issues. Often referenced during release notes work](https://github.com/rancherlabs/rancher-security/).
-- [Repository for Rancher Desktop](https://github.com/rancher-sandbox/rancher-desktop).
-
 ## SUSE & Rancher doc sites
 
 - [Production website. Corresponds to the "master" branch of the rancher/docs repo](https://rancher.com/docs).

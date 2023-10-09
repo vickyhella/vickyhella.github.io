@@ -23,4 +23,4 @@ Vicky
 - JavaScript basics
 - Python basics
 - Mermaid diagrams
-- Reading Microsoft Writing Style Guide
+- Microsoft Writing Style Guide
