@@ -32,14 +32,14 @@ All DITA topics have this general structure:
 
    <body>
 
-        (Most of the elements go here.
+        (Most of the elements go here.)
 
    </body>
 
 </topic> 
 ```
 
-- `<shortdesc>`: short description) provides a 2-3 sentence summary of the topic content.
+- `<shortdesc>`: short description, provides a 2-3 sentence summary of the topic content.
 - `<title>` is the only required element in a topic.
 - `<body>` contains the bulk of the information in the topic. In the specific topic types, the body element has a related name, such as `<conbody>` for concepts and `<taskbody>` for tasks.
 
