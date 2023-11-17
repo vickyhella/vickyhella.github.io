@@ -23,11 +23,11 @@ I tried the OKapi markdown filter in OmegaT and compared the formats of the sour
 
 ### Lightweight
 
-OmegaT uses very lightweight glossary and TM, meaning their sizes can be very small. As the files are small, you can move them anywhere you want with ease.
+OmegaT uses a very lightweight glossary and TM, meaning their sizes can be very small. As the files are small, you can move them anywhere you want with ease.
 
 I have a translation project with around 320,000 English words, and the total TM size is only about 10 MB, which is really surprising for me.
 
-When it comes to the glossary file, OmegaT uses and generates glossary in tab-separated values (TSV) format, whose extension is `txt`. You can convert your other glossary files into it if needed.
+When it comes to the glossary file, OmegaT uses and generates glossaries in tab-separated values (TSV) format, whose extension is `txt`. You can convert your other glossary files into it if needed.
 
 ### Open Source
 OmegaT is free and open-source, making it suitable for individual translators.
