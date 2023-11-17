@@ -7,22 +7,19 @@ sidebar_position: 4
 
 For maintainers of a documentation website, it's important to fix the broken links to save readers' time and make the documentation look more professional and well-maintained.
 
-
 ## Finding broken links
-
-This section includes some useful link checkers.
 
 ### Command-line tools
 
-You can check if a site contains broken links from the terminal. [Broken-link-checker](https://github.com/stevenvachon/broken-link-checker) is the tool that you can choose.
+You can check if a site contains broken links from the terminal. [Broken-link-checker](https://github.com/stevenvachon/broken-link-checker) is a tool that you can choose.
 
-First, you need to install the tool as follows:
+First, install the link-checker as follows:
 
 ```bash
 npm install broken-link-checker -g
 ```
 
-To use the tool, run:
+To use the checker, run:
 
 ```bash
 blc <URL> -ro # check for URLs
@@ -32,16 +29,16 @@ blc <path> -ro # check for paths
 You can run `blc --help` to find more available options.
 
 :::note
-You need to replace `<URL>` or `<path>` with the actual ones that you want to find broken links for.
+Replace `<URL>` or `<path>` with the actual ones that you want to find broken links for.
 :::
 
 ### GitHub actions
 
-Instead of running the command for broken links, you can also add a GitHub action to automate link checks. This documentation project uses the [Markdown link check ](https://github.com/gaurav-nelson/github-action-markdown-link-check) GitHub action to find broken links.
+Instead of running the command to find broken links, you can also add a GitHub action to automate link checks. This documentation project uses the [Markdown link check ](https://github.com/gaurav-nelson/github-action-markdown-link-check) GitHub action to find broken links.
 
 To use this GitHub Action:
 
-1. Create a new file in your project's root, which should be `.github/workflows/action.yml`.
+1. Create a new `.github/workflows/action.yml` file in your project's root.
 2. Open the file, and copy-paste the following workflow to your file.
 
   ```yml
@@ -92,7 +89,7 @@ yarn remark --quiet --use remark-validate-links --use remark-lint-no-dead-urls <
 ```
 
 :::note
-You need to replace `<file_directory>` with the directory that you need to check links for. To check links for multiple directories, use a space to separate the directories.
+Replace `<file_directory>` with the directory that you need to check links for. To check links for multiple directories, use a space to separate the directories.
 :::
 
 To further simplify the process, you can add the command above to the `scripts` section of your `package.json` file as follows:
@@ -132,7 +129,7 @@ The extension checks all links on the website. Good links will become green and 
 
 ### General practices
 
-When a link is broken, it's possible that the original page is migrated or deleted. Therefore, you can fix it using either of the following methods as needed.
+When a link is broken, it's possible that the original page has been migrated or deleted. Therefore, you can fix it using either of the following methods as needed.
 
 - If the original page is migrated, find where the page is migrated and use the new URL in your docs.
 - If the original page is deleted, or you cannot find where it's migrated, delete the link from your docs.
@@ -145,7 +142,7 @@ Usually, a level-2 heading in MD files named `test` is as follows:
 ## This is a Heading
 ```
 
-When the heading is clicked in a browser, the URL will be `domain/test#this-is-a-heading`. In other words, if the heading text is changed, the link referenced in other docs will be broken.
+When the heading is clicked in a browser, the URL will be `domain/test#this-is-a-heading`. In other words, if the heading text is changed, the link referenced by other pages will be broken.
 
 
 #### Adding an ID to headings{#heading-id}
