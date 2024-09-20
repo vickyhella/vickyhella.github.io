@@ -31,6 +31,24 @@ This document shows some of the skills I learned (from the Internet or my co-wor
 
   For more information, see [VSCode Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings).
 
+### Using SSH to connect to a server in Visual Studio Code
+
+If you have a server, you can edit its files or run commands in it from a remote host using SSH:
+
+  ```bash
+  ssh username@ip-address
+  ```
+
+  Replace `username` and `ip-address` with the actual ones.
+
+In addition to that, you can also edit files from Visual Studio Code with the `Remote - SSH` extension, which is highly recommended for operations that require a lot of copy-and-paste operations. To use it:
+
+  1. Install [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh).
+  1. Press `Command + Shift + P` and choose `Remote-SSH: Connect to Host...`.
+  1. Enter the SSH information, for example, `username@ip-address`.
+
+After this, you can open the server files from Visual Studio Code with ease. For more information, see [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh).
+
 ## Command-Line Skills
 ### Changing the Default Directory in Terminal
 
