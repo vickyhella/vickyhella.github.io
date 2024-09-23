@@ -49,6 +49,12 @@ In addition to that, you can also edit files from Visual Studio Code with the `R
 
 After this, you can open the server files from Visual Studio Code with ease. For more information, see [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh).
 
+:::info
+
+If the device's SSH key has changed, you can either remove the offending key from your `known_hosts` file or update it with the new key. To do so, you can open `$HOME/.ssh/known_hosts` and remove the affected line. It can also be done with a command `ssh-keygen -R IP`.
+
+:::
+
 ## Command-Line Skills
 ### Changing the Default Directory in Terminal
 
