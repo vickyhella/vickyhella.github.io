@@ -1,6 +1,6 @@
 ---
 title: Viewing and Editing Files
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## `ls`

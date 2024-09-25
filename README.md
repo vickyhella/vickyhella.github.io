@@ -10,11 +10,32 @@ $ yarn
 
 ### Local Development
 
-```
+```bash
 $ yarn start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+**Non-default locales:**
+
+To preview a non-default locale (such as `zh`) in the browser:
+
+1. Generate the locale files：
+
+  ```bash
+  yarn run write-translations -- --locale zh
+  ```
+
+1. Modify or translate the locale files accordingly.
+
+1. Preview the changes in the browser:
+
+  ```bash
+  yarn run start -- --locale zh
+  ```
+
+  > If you use another locale, change `zh` to the actual locale as needed.
+  > `yarn start` only previews the default locale, and `yarn run start -- --locale zh` only previews the specified locale. To preview all locales, run `yarn build`.
 
 ### Build
 

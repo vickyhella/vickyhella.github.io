@@ -51,7 +51,7 @@ After this, you can open the server files from Visual Studio Code with ease. For
 
 :::info
 
-If the device's SSH key has changed, you can either remove the offending key from your `known_hosts` file or update it with the new key. To do so, you can open `$HOME/.ssh/known_hosts` and remove the affected line. It can also be done with a command `ssh-keygen -R IP`.
+If the device's SSH key has changed, you can either remove the offending key from your `known_hosts` file or update it with the new key. To do so, open `$HOME/.ssh/known_hosts` and remove the affected line. It can also be done with a command `ssh-keygen -R ip-address`.
 
 :::
 
