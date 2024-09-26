@@ -59,3 +59,23 @@ chmod -R 777 /
 # shows current file permissions
 ls -lt
 ```
+
+## Manage users
+
+```bash
+# add a new user
+adduser newuser
+
+# query which group a user is is
+groups newuser
+# by default, a user and its own group share the same name
+
+# add a new user to the sudo group
+usermod -aG sudo newuser
+sudo usermod -aG sudo newuser
+
+# delete a new user
+deluser newuser
+```
+
+See [How to Add and Delete Users on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-20-04) for more information.
