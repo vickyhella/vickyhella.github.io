@@ -47,3 +47,15 @@ unxz package.xz
 tar -xvf package.tar
 ```
 
+## Manage permissions with `chmod`
+
+```sh
+# make a file have rwxrwxrwx permissions
+chmod 777 file-path
+
+# make every single file under / have rwxrwxrwx permissions
+chmod -R 777 /
+
+# shows current file permissions
+ls -lt
+```
