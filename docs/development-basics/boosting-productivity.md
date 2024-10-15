@@ -1,6 +1,6 @@
 ---
 title: Boosting Productivity
-sidebar_position: 7
+sidebar_position: 10
 ---
 
 ## Introduction
@@ -56,6 +56,37 @@ If the device's SSH key has changed, you can either remove the offending key fro
 :::
 
 ## Command-Line Skills
+
+### Highlighting Syntax
+
+#### Highlighting Commands
+
+You can highlight commands in terminal using [oh-my-zsh](https://ohmyz.sh). Install it as follows:
+
+```sh
+# use curl
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# use wget
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+```
+
+#### Highlighting vim Syntax
+
+1. Create or edit `~/.vimrc`.
+
+  ```sh
+  vim ~/.vimrc
+  ```
+
+1. Append the following line to the file:
+
+  ```
+  syntax on
+  ```
+
+For more information, see [this doc](https://www.cyberciti.biz/faq/turn-on-or-off-color-syntax-highlighting-in-vi-or-vim/).
+
 ### Changing the Default Directory in Terminal
 
 The default directory of the terminal is the user's root directory. If you want to change it to a directory that is used more often, you can:
@@ -68,7 +99,7 @@ The default directory of the terminal is the user's root directory. If you want 
 
 2. Add the following line to the file. Note that you need to replace `<target-directory>` with the directory you wish to open every time you open the terminal.
 
-  ```
+  ```sh
   cd <target-directory>
   ```
 After this, the default directory of the terminal will become `<target-directory>`.
@@ -77,7 +108,7 @@ After this, the default directory of the terminal will become `<target-directory
 
 1. Open the `~/.zshrc` file:
 
-    ```
+    ```sh
     vi ~/.zshrc
     ```
 

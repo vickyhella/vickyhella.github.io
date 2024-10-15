@@ -60,3 +60,28 @@ cat file.txt >> log.txt # Append the content of "file.txt" to the end of "log.tx
 :::note Comparing `vi` and `cat`
 In summary, the `cat` command is primarily used for displaying and manipulating file content on the terminal, while the `vi` command is a full-featured text editor for creating and modifying text files.
 :::
+
+## `tree`
+
+The `tree` command is used to list files' hierarchy. Before you start, install it first:
+
+```shell
+sudo apt-get install tree # linux
+brew install tree # macOS
+```
+
+To use `tree`, run `tree` in the target directory:
+
+```shell
+└── translation-memory
+    ├── Marketing.tmx
+    ├── desktop-docs.tmx
+    ├── harvester-docs.tmx
+    ├── harvester-ui.tmx
+    ├── k3s-docs.tmx
+    ├── rancher-docs.tmx
+    ├── rancher-ui.tmx
+    ├── rke2-docs.tmx
+    ├── sidebars.tmx
+    └── translation.tmx
+```
