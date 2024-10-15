@@ -97,7 +97,7 @@ If you want to view the search trend and get statistics on keywords that are sea
 
 To get an insight into your users' search behaviors:
 
-1. Log in to your [Algolia console](https://dashboard.algolia.com/).
+1. Log in to your Algolia console.
 1. Click the **Search** icon in the left navigation bar.
 1. Click **Analytics** under **OBSERVE**.
 

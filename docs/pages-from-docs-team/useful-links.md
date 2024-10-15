@@ -52,7 +52,7 @@ This page is a collection of links that may come in handy during day-to-day work
 
 ## Tools
 
-[Vale](https://vale.sh/docs/vale-cli/installation/) is a command line linter with [integrations for VS Code](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server) and other text editors. It points out style issues on your page so that you can fix them before you push a commit. After you install Vale CLI, [create a .vale.ini config file](https://vale.sh/generator) to contain references to your style guides, and run`vale sync`. Then, add the integration with your text editor. When you run Vale, you should be in the same directory as .vale.ini.
+[Vale](https://vale.sh/docs/vale-cli/installation/) is a command line linter with integrations for VS Code and other text editors. It points out style issues on your page so that you can fix them before you push a commit. After you install Vale CLI, [create a .vale.ini config file](https://vale.sh/generator) to contain references to your style guides, and run`vale sync`. Then, add the integration with your text editor. When you run Vale, you should be in the same directory as .vale.ini.
 
 Microsoft should be listed as your primary Vale style, while the [SUSE style guide for Vale](https://github.com/openSUSE/suse-vale-styleguide) should be among your supplementary styles. To add the Suse guide to your Vale styles, simply run git clone `[https://github.com/openSUSE/suse-vale-styleguide.git](https://github.com/openSUSE/suse-vale-styleguide.git)` in your styles directory and update your .vale.ini file's `BasedOnStyles` and `Packages` to list suse-vale-styleguide.
 
