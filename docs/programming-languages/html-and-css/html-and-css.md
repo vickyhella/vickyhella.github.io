@@ -18,3 +18,21 @@ This section includes what I have newly learned about HTML and CSS.
 ```
 
 ## CSS styles
+
+## HTML for Markdown
+
+### Right-aligned text
+
+By default, text is left-aligned in markdown. To make them right or center-aligned, use the line below in your markdown: 
+
+```html
+<div style="text-align: right"> your-text-here </div>
+```
+
+### Page break
+
+To break a page in markdown, use the line below:
+
+```html
+<div style="page-break-after: always;"></div>
+```
